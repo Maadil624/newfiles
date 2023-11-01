@@ -29,9 +29,11 @@ export default async function userController(req, res) {
         // storing data
         // using object creation and passing
         const newuser = {
+
             name: name,
             email: email,
             password: bcrypt.hashSync(password, 10)
+   
             // :bcrypt.hashSync(password)
         }
         console.log(newuser)
