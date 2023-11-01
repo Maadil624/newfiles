@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ullist {
+            position: absolute;
+            margin-top: -5px;
+        }
+
+        .disp {
+            display: none;
+        }
+
+        button {
+            width: 80px;
+            text-align: center;
+        }
+
+        .ullist li:hover,
+        button:hover,
+        label:hover {
+            cursor: pointer;
+        }
+
+        .ullist li {
+            list-style-type: none;
+            background-color: rgb(179, 179, 235);
+            margin: 1px 0px 1px -40px;
+            width: 80px;
+            text-align: center;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #main {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+        }
+
+        #left,
+        #right {
+            width: 50%;
+        }
+
+        .left {
+            display: flex;
+            background-color: rgb(162, 223, 223);
+        }
+
+        .right {
+            background-color: rgb(214, 214, 150);
+        }
+
+        #btndiv {
+            overflow: hidden;
+            display: none;
+            line-height: 30px;
+            position: relative;
+            float: left;
+            /* left: 20%; */
+        }
+
+        #viewdiv {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #textview,
+        #graphview {
+            color: antiquewhite;
+            text-align: center;
+            height: 100px;
+            width: 100px;
+        }
+
+        #textview {
+            display: block;
+            background-color: black;
+        }
+
+        #graphview {
+            display: none;
+            background-color: rgb(222, 82, 82);
+        }
+
+        #viewbtn1 {
+            background-color: red;
+        }
+
+        #litext {
+            text-align: center;
+            overflow: hidden;
+            width: auto;
+            color: green;
+            text-overflow: ellipsis;
+            padding-left: 8px;
+        }
+
+        #ul3 li span:hover {
+            text-overflow: clip;
+            width: auto;
+            z-index: 10;
+            /* font-size: 30px; */
+            color: blue;
+        }
+
+        #ul3 li:hover {
+            /* width: 1000px; */
+            overflow: visible;
+            /* background-color: brown; */
+            /* font-size: 20px; */
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/22b13c0f86.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <script>
+        // let view1='text'
+        // let view2='graph'
+    </script>
+</head>
+
+<body>
+    <div id="main">
+        <div class="left" id="left">
+            <div>
+                <input type="radio" id="rd1" title='hi' name="rd" value="playground" checked="true"
+                    onchange="rdvalue(event)">
+                <label for="rd1">playground</label>
+                <input type="radio" id="rd2" title='hi' name="rd" value="corpus" onchange="rdvalue(event)">
+                <label for="rd2">corpus</label>
+            </div>
+            <div id="btndiv">
+                <div id="btndiv1">
+                    <button type="button" id="btn1">corpus</button><br />
+                    <ul id="ul1" class="ullist disp">
+                        <li>corpus1</li>
+                        <li>corpus2</li>
+                        <li>corpus3</li>
+                        <li>corpus4</li>
+                    </ul>
+                </div>
+                <div id="btndiv2">
+                    <button type="button" id="btn2">catogery</button><br />
+                    <ul id="ul2" class="ullist disp">
+                        <li>catogery1</li>
+                        <li>catogery2</li>
+                        <li>catogery3</li>
+                        <li>catogery4</li>
+                    </ul>
+                </div>
+                <div id="btndiv3">
+                    <button type="button" id="btn3">signal</button>
+                    <ul id="ul3" class="ullist disp">
+
+                        <!-- <li>signal1</li>
+                        <li>signal2</li>
+                        <li>signal3</li>
+                        <li>signal4</li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="right" id="right">
+            <h1>
+                <span><button id="viewbtn1" onclick="textAndGraphTab(event,'textview','graphview')">text
+                        view</button></span>
+                <!-- <span><button id="viewbtn1" onclick="textAndGraphTab(event,'textview','graphview')">text view</button></span> -->
+                <!-- <span><button id="viewbtn1" onclick="textAndGraphTab(event,'textview','graphview')">text view</button></span> -->
+                <!-- <span><button id="viewbtn1" onclick="textAndGraphTab(event,'textview','graphview')">text view</button></span> -->
+                <span><button id="viewbtn2" onclick="textAndGraphTab(event,'textview','graphview')">graph
+                        view</button></span>
+            </h1>
+            <div id="viewdiv">
+                <div id="textview" style="display: block;">
+                    text view
+                </div>
+                <div id="graphview" style="display: none;">
+                    graph view
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="TextBISeacrchFile.js">
+</script>
+
+</html>

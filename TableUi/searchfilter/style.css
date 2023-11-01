@@ -1,0 +1,33 @@
+#results {
+    display: none;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px;
+    cursor: pointer;
+}
+#list{
+    display: none;
+}
+.listdiv{
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    height: auto;
+    max-height: 250px;
+    background-color: aqua;
+    position: relative;
+    /* overflow-y: scroll; */
+}
+.list-items{
+    margin: 0px;
+    background-color: rgb(255, 128, 0);
+    /* padding: 2px; */
+}
