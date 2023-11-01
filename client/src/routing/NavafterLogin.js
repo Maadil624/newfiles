@@ -30,8 +30,9 @@ export default function NavafterLogin(props) {
         setvalue(true)
         let url = 'http://localhost:5000/allNotifications'
         fetch(url).then(json => json.json()).then(data => {
-            console.log(data.allNotifications[0])
-            setnotifications(data.allNotifications[0].Notification)
+            console.log(data.allNotifications);
+            // console.log(data);
+            (data.allNotifications.length >= 1) ? setnotifications(data.allNotifications) : setnotifications()
         })
     }
     function deleteNotifications(id) {
@@ -76,7 +77,7 @@ export default function NavafterLogin(props) {
                                     sessionStorage.clear()
                                     navigate('/login')
                                 }}>Logout</button></li>
-                                <i class="fa-solid fa-bell noti" style={{ "font-size": "30px" }} onClick={() => { fetchNotifications() }}></i>
+                                {/* <i class="fa-solid fa-bell noti" style={{ "font-size": "30px" }} onClick={() => { fetchNotifications() }}></i> */}
                             </div>
                         </nav>
                     </div>
@@ -121,24 +122,24 @@ export default function NavafterLogin(props) {
                     <div className='noticontent'>
                         {/* <button className='contentbtn' > */}
                         {/* </button> */}
-                        {console.log(notifications)}
-                        {console.log(Object.entries(notifications))}
-                        {console.log(typeof notifications)}
+                        {/* {console.log('notifications=', notifications)} */}
+                        {/* {console.log(Object.entries(notifications))} */}
+                        {/* {console.log(typeof notifications)} */}
                         <div className='notification_div'>
-                            {(notifications)
+                            {(notifications != undefined)
                                 ?
                                 <>
                                     {
-                                        Object.entries(notifications).map((item, index) => {
-                                            // console.log(item.action)
+                                        notifications.map((item, index) => {
+                                            console.log(item.Notification.action)
                                             // console.log(item.action.includes('hii'))
                                             return (
                                                 <>
                                                     <h6 style={{ display: 'flex', width: '100%', justifyContent: 'center', alignItems: 'center' }}>
                                                         <span style={{ color: 'black', paddingRight: '5px' }}>{index + 1}</span>
                                                         <span style={{ color: 'green', display: 'flex', width: '100%', justifyContent: 'center', alignItems: 'center' }}>
-                                                            FileId : {item['fileid']} ,
-                                                            {/* Requested : {(item['action'].includes('onsave')) ? 'Data Updation' : item[['action']]}, */}
+                                                            FileId : {(item.Notification.fileid) ? item.Notification.fileid : 'Error'},
+                                                            Requested : {(item.Notification.action.includes('onsave')) ? 'Data Updation ' : item.Notification.action},
                                                             Status : sucessfull
                                                         </span>
                                                         <span style={{ width: '10%', float: 'right' }} ><i onClick={() => deleteNotifications(item['_id'])} class="fa-regular fa-circle-xmark"></i></span>

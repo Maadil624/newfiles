@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 // import validator from 'validator'
 const usersNotifications = new mongoose.Schema({
-    Notifications: {
+    Notification: {
         type: Object
     }
 })
@@ -9,4 +9,4 @@ const usersNotifications = new mongoose.Schema({
 & users is schema name in mnDB
  and model type is designed above name
 */
-export default mongoose.model('userNotification', usersNotifications)
+export default mongoose.model('usersNotification', usersNotifications)

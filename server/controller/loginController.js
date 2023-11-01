@@ -162,9 +162,9 @@ export const allUsers = async (req, res) => {
 export const createNotification = async (req, res) => {
     try {
         const { data } = req.body
-        console.log('165', data)
+        // console.log('165', data)
         const existdata = await usersNotifications.find({ _id: data._id })
-        console.log('existing data=', existdata)
+        // console.log('existing data=', existdata)
         let newNotification = {
             Notification: data
         }
@@ -173,7 +173,7 @@ export const createNotification = async (req, res) => {
         }
         if (!existdata.length > 0) {
             const users = await usersNotifications.create(newNotification)
-            console.log('created data=', users)
+            // console.log('created data=', users)
         }
     }
     catch (error) {
@@ -183,7 +183,9 @@ export const createNotification = async (req, res) => {
 
 export const allNotifications = async (req, res) => {
     try {
+        console.log('all notifications')
         let allNotifications = await usersNotifications.find()
+        // console.log(allNotifications)
         if (allNotifications) {
             return res.status(200).send({
                 success: true,
