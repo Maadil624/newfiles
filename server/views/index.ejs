@@ -1,0 +1,51 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VivaGraphJS Graph Visualization</title>
+  <script src="\node_modules\vivagraphjs\dist\vivagraph.js"></script>
+</head>
+<body>
+  <h1>VivaGraphJS Graph Visualization</h1>
+  <div id="graph-container" style="width: 600px; height: 400px;"></div>
+  <script>
+    const graph = Viva.Graph.graph();
+
+    // Add nodes and edges to the graph as needed
+    graph.addNode('Node 1');
+    graph.addNode('Node 2');
+    graph.addLink('Node 1', 'Node 2');
+
+    // Create a renderer
+    const graphics = Viva.Graph.View.svgGraphics();
+
+    // Customize node rendering here if needed
+    graphics.node((node) => {
+      return Viva.Graph.svg('circle')
+        .attr('r', 10)
+        .attr('fill', 'blue');
+    });
+
+    const renderer = Viva.Graph.View.renderer(graph, {
+      graphics: graphics,
+      container: document.getElementById('graph-container'),
+    });
+
+    renderer.run();
+  </script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  hii
+</body>
+</html>
