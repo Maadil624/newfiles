@@ -1,0 +1,361 @@
+/* navbar design */
+#logo {
+  background-color: black;
+  aspect-ratio: 3/2;
+  height: 5em;
+  border-radius: 20%;
+  object-fit: contain;
+}
+
+.bartop {
+  width: 100%;
+  top: 0px;
+  overflow: hidden;
+  max-height: 90px;
+  /* height: 90px; */
+  /* position: relaStive; */
+  background-color: black;
+}
+
+#navright li {
+  /* display: flex; */
+  padding-right: 30px;
+  justify-content: space-between;
+}
+
+.navbar {
+  /* position: relative; */
+  z-index: 1;
+  min-height: 50px;
+}
+
+div ul li {
+  display: inline-block;
+  color: black;
+}
+
+div ul li:hover {
+  color: black;
+  /* color: white !important; */
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+div .rightbar {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  /* margin-top: 2px; */
+  height: 40px;
+  padding-top: 5px;
+  /* position: absolute; */
+  float: right;
+  justify-content: flex-end;
+  /* padding: px; */
+  margin-right: 5px;
+  overflow: hidden;
+  /* float: right; */
+  /* background-color: green; */
+}
+
+/* home page middle design */
+#divimg,
+.middlehome div,
+.imageclass div,
+div {
+  padding: 0;
+  margin: 0;
+}
+
+#image1,
+#image2 {
+  /* position: relative; */
+  margin-top: 0px;
+  width: 100%;
+  height: 50em;
+  min-width: 90vw;
+  max-height: 50em;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.bg-image {
+  background-image: url("../images/jobback1.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* coontact desing */
+.contact {
+  width: 100%;
+  background-color: rgb(237, 245, 230);
+  bottom: 0;
+  /* margin-bottom: 0px; */
+  height: 650px;
+}
+
+#img2h1tag1,
+#img2h1tag2 {
+  width: 180px;
+  position: absolute;
+  border: 3px solid black;
+  /* float: middle; */
+  left: 50%;
+  right: 50%;
+  top: 110%;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+#img2h1tag2:hover {
+  /* transform: scale(1.1); */
+  color: black;
+  background-color: rgb(91, 231, 78);
+  box-shadow: 0px 0px 40px 10px rgb(91, 231, 78);
+}
+
+#img2h1tag2 {
+  top: 130%;
+  width: 160px;
+  /* color: darkturquoise; */
+  background-color: darkturquoise;
+}
+
+#mob,
+#loc,
+#add {
+  position: relative;
+  margin-left: 30em;
+  color: rgb(98, 134, 67);
+  bottom: 125px;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+#contactimg {
+  width: 250px;
+  position: relative;
+  left: 25%;
+  top: 85px;
+  height: 250px;
+
+}
+
+/* footer design */
+.foot {
+  background-color: rgb(179, 201, 160);
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 0px;
+  height: 950px;
+  overflow: hidden;
+}
+
+/* image setting */
+.foot2 img {
+  overflow: hidden;
+  /* position: absolute; */
+  float: right;
+  left: 10%;
+}
+
+.foot1 img {
+  position: absolute;
+  overflow: hidden;
+  right: 10%;
+  margin-top: 120px;
+}
+
+.container-fluid {
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+}
+
+.foot img {
+  overflow: hidden;
+  width: 450px;
+  height: 450px;
+}
+
+/* content setting */
+#foot1 {
+  color: aliceblue;
+  margin-top: 250px;
+  position: absolute;
+  left: 550px;
+  /* bottom: 250px; */
+  /* top: 30px; */
+  overflow: hidden;
+  /* text-align: center; */
+}
+
+#foot2 {
+  color: rgb(109, 144, 57);
+  margin-top: 350px;
+  font-size: 30px;
+  left: 350px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  width: 700px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.foot1,
+.foot2 {
+  overflow: hidden;
+  height: 500px;
+  margin-top: 10px;
+  width: 500px;
+
+}
+
+#about,
+#contact {
+  color: rgba(109, 144, 57, 0.7);
+  ;
+  /* position: absolute; */
+  overflow: hidden;
+  font-size: 45px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 50%;
+  padding-top: 20px;
+  margin-right: 50%;
+  width: 300px;
+}
+
+/* notification css user */
+.noti {
+  cursor: pointer;
+  margin: 0px 30px 15px 20px;
+  padding-top: 15px;
+}
+
+.noti:hover {
+  animation: effect 0.2s 3;
+}
+
+.listcolor {
+  color: red !important;
+}
+
+@keyframes effect {
+  0% {
+    transform: translateX(0px) rotate(0deg);
+  }
+
+  20% {
+    transform: translateX(-4px) rotate(-4deg);
+  }
+
+  40% {
+    transform: translateX(-2px) rotate(-2deg);
+  }
+
+  60% {
+    transform: translateX(4px) rotate(4deg);
+  }
+
+  80% {
+    transform: translateX(2px) rotate(2deg);
+  }
+
+  100% {
+    transform: translateX(0px) rotate(0deg);
+  }
+}
+
+
+/* noti display css */
+.contentbtn {
+  position: absolute;
+  right: 80px;
+  top: 50px;
+  /* padding-bottom: 5px; */
+  /* margin: -50px -120px 0px 0px; */
+  border-radius: 10px;
+  background-color: rgb(102, 183, 102);
+}
+
+.contentbtn:hover {
+  background-color: rgb(233, 114, 114);
+  box-shadow: 0px 0px 15px 3px rgb(233, 114, 114);
+}
+
+#display {
+  font-size: 25px;
+}
+
+.disp {
+  display: none;
+}
+
+.notification {
+  position: absolute;
+  color: black;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 1;
+  z-index: 10;
+  height: 100%;
+  width: 100%
+}
+
+.noticontent {
+  position: absolute;
+  /* overflow: scroll; */
+  top: 80px;
+  background-color: rgb(250, 249, 249);
+  height: 80vh;
+  width: 80vw;
+  margin: auto;
+}
+
+.notification_div {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.fa-circle-xmark:hover {
+  cursor: pointer;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  border: none;
+}

@@ -1,0 +1,305 @@
+(uptvalue)
+          ?
+          <>
+          {
+            updatedata.map((data, id) => {
+              return (
+                <>
+                  <div style={{margin: '5px', padding: '5px', textAlign: 'center' }}>                  
+                    <div class="card d-flex flex-wrap text-left justify-content-left m-2 p-1" style={{ width: "35rem", margin: '3rem' }}>
+                           <div class="card-body flex-wrap " id='id1'>
+                            <h6>Request : {data.action}</h6>        
+                            <h6>Fileid : {data.fileid}</h6>        
+                            <h6>Filename : {data.filename}</h6>        
+                             <br />
+                             <button type="button" style={{ margin: "15px" }} class="btn btn-success" onClick={() =>
+                     console.log('object')}>Accept</button>
+                             <button type="button" class="btn btn-danger" onClick={() =>
+                               console.log('object')}>Reject</button>
+                           </div>
+                    </div>
+                  </div>
+                </>
+              )
+            })
+          }
+          </>
+          :
+          <>
+          {(dltvalue)?<>
+          {
+            deletedata.map((data, id) => {
+              return (
+                <>
+                  <div style={{margin: '5px', padding: '5px', textAlign: 'center' }}>                  
+                    <div class="card d-flex flex-wrap text-left justify-content-left m-2 p-1" style={{ width: "35rem", margin: '3rem' }}>
+                           <div class="card-body flex-wrap " id='id1'>
+                            <h6>Request : {data.action}</h6>        
+                            <h6>Fileid : {data.fileid}</h6>        
+                            <h6>Filename : {data.filename}</h6>        
+                             <br />
+                             <button type="button" style={{ margin: "15px" }} class="btn btn-success" onClick={() =>
+                     console.log('object')}>Accept</button>
+                             <button type="button" class="btn btn-danger" onClick={() =>
+                               console.log('object')}>Reject</button>
+                           </div>
+                    </div>
+                  </div>
+                </>
+              )
+            })
+          }
+          </>:<>
+          {
+            (flvalue)?<>
+            {
+              deletefile.map((data, id) => {
+                return (
+                  <>
+                    <div style={{margin: '5px', padding: '5px', textAlign: 'center' }}>                  
+                      <div class="card d-flex flex-wrap text-left justify-content-left m-2 p-1" style={{ width: "35rem", margin: '3rem' }}>
+                             <div class="card-body flex-wrap " id='id1'>
+                              <h6>Request : {data.action}</h6>        
+                              <h6>Fileid : {data.fileid}</h6>        
+                              <h6>Filename : {data.filename}</h6>        
+                               <br />
+                               <button type="button" style={{ margin: "15px" }} class="btn btn-success" onClick={() =>
+                       console.log('object')}>Accept</button>
+                               <button type="button" class="btn btn-danger" onClick={() =>
+                                 console.log('object')}>Reject</button>
+                             </div>
+                      </div>
+                    </div>
+                  </>
+                )
+              })
+            }
+            </>:<>
+            no data available
+            </>
+          }
+          </>
+          }
+          </>
+
+
+let filtereddata=details.filter(async data=>{
+        let ind=data.index==undefined
+        let olddt=data.olddata==undefined
+        let dt=data.data==undefined
+        if(data.action==action,data.filename==name&&data.fileid==id){
+            console.log('filename=',data.filename)
+            console.log('ind',ind,olddt,dt)
+            console.log('db index=',data.index)
+            if(ind||olddt&&dt){
+                if(!ind){
+                    if(data.index==index&&olddt&&dt){
+                        message='file index is availabe to change data'
+                        console.log('file index is availabe to change data')
+                    }
+                    else if(data.index==index){
+                        message='file ind available to dlt data'
+                        console.log('file ind available to dlt data')
+                    }
+                    else{
+                        console.log('added data')
+                    }
+                }
+                else if(ind&&olddt&&dt){
+                    if(index){
+                        if(index&&olddt&&dt){
+                            console.log('index added to change')
+                        }
+                        else if(index&&ind){
+                            console.log('index added to delete')
+                        }
+                        else{
+                            message='file available to delete'
+                            console.log('file available to delete')        
+                        }
+                    }
+                }
+                else{
+                    message='file available to delete'
+                    console.log('file available to delete')
+                }
+            }
+            else{
+                // message='file avail to del'
+                // console.log('file available to del')
+            }
+        }
+    })
+    if(filtereddata.length>0){
+        console.log(message)
+        console.log(filtereddata)
+    }else{
+        if(details.length==0){
+            let adding=await usersRequest.create(new_data)
+            res.status(200).send({
+                success:false,
+                message:`${action} request accepted`,
+                adding
+            })
+            console.log('added data')
+        }
+    }
+
+
+div id='editdiv'>
+        <input type='text' value={state1} onChange={(e) => { setstate1(e.target.value) }} /><br /><br />
+        <input type='text' value={state2} onChange={(e) => { setstate2(e.target.value) }} />
+        <br /><br />
+        <input type='text' value={state3} onChange={(e) => { setstate3(e.target.value) }} />
+        <br /><br />
+        <input type='text' value={state4} onChange={(e) => { setstate4(e.target.value) }} />
+        <br /><br />
+        <input type='text' value={state5} onChange={(e) => { setstate5(e.target.value) }} />
+        <br /><br />
+        <button type="button" id='editbtn1' class="btn btn-success"
+          onClick={() => {
+            // save(),
+            Swal.fire(
+              "Saved",
+              '',
+              'success'
+            )
+          }
+          }>Save</button>
+        <button type="button" id='editbtn2' class="btn btn-danger" onClick={() => {
+          // handledeleteuser(),
+          Swal.fire(
+            "Deleted",
+            '',
+            'success'
+          )
+        }
+        }>Delete</button>
+        <button type="button" id='editbtn3' class="btn btn-primary" onClick={() =>
+          Swal.fire(
+            "reset",
+            '',
+            'success'
+          )}>reset</button>
+      </div> 
+ 
+ 
+ return (
+                    filedata.map((data,id)=>{
+                      // console.log("at id",data[0][1])
+                      // console.log(data[id][0]+data[id])
+                    return(
+                      <>
+                        <div class="card d-flex flex-wrap text-left justify-content-center m-5 p-2" style={{ width: "35rem", margin: '3rem' }}>
+                          <div class="card-header">
+                            {/* <input type='text' value={job.company}/> */}
+                            Company Name : <b>{data[0][1]}</b>
+                          </div>
+                          <div class="card-body">
+                            <h5 class="card-title">Position : <b>{id}</b></h5>
+                            <br />
+                            <h6>Location: <b>{id} </b></h6><br />
+                            <button type="button" class="btn btn-primary" onClick={() => Swal.fire(
+                              "Applied for the job",
+                              '',
+                              'success'
+                            )}>Apply</button>
+                            {/* <button type="button" style={{ margin: "15px" }} class="btn btn-success" onClick={() => editjob(job._id, job.company, job.position)}>Edit</button> */}
+                            {/* <button type="button" class="btn btn-danger" onClick={() => deletejob(job._id)}>Delete</button> */}
+                          </div>
+                        </div>
+                      </>
+                    ) 
+                    // Object.values(data[0])
+                  })
+                  // console.log(filedata)
+                      )
+
+
+ 
+ <>{
+      (first&&users) ?
+        <div class="card m-5 mb-3 d-flex flex-wrap" style={{ maxHeight: "100vh",Width:"100vw" }}>{
+          first.map(data => {
+            return (
+              <div>
+
+                <div class="card d-flex flex-wrap text-left justify-content-center m-5 p-2" >
+                  {
+                    data.map(data => {
+                      // console.log(data)
+                      return (
+                        <>
+                          <div class="card" style={{ "width": "18rem" }}>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">{data[0]} : {data[1]}</li>
+                            </ul>
+                          </div>
+
+
+                          {/* <h1 class='card-title'></h1> */}
+
+                        </>
+                      )
+                      // console.log(data[0],":",data[1])
+                    })
+                  }
+                  <button>edit</button>
+                </div>
+              </div>
+            )
+          })
+        }
+        </div>
+        : 'no data'
+    }
+    </>
+
+
+
+<div class="card m-5 mb-3">
+        {(users) ?
+          users.map(filename => {
+            return (<>
+              <h1>
+                File-Name : {filename.name}
+              </h1>
+              <div className='d-flex flex-wrap' id="main" >
+                {
+                  (filedata) ? filedata.map((data, id) => {
+                    // console.log(job)
+                    return (
+                      <>{
+                        data.map(filename => {return(<>
+                          <div class="card d-flex flex-wrap text-center justify-content-center m-5 p-2" >
+                            <div class="card-header">
+                              {/* <input type='text' value={job.company}/> */}
+                              Company Name : <b>{filename.Task}</b>
+                              {/* {console.log(filename.Task)} */}
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title">Position : <b>{ }</b></h5>
+                              <br />
+                              {/* <h6>Location: <b>{job.location} </b></h6><br /> */}
+                              <button type="button" class="btn btn-primary" onClick={() => Swal.fire(
+                                "Applied for the job",
+                                '',
+                                'success'
+                              )}>Apply</button>
+                              {/* <button type="button" style={{margin:"15px"}} class="btn btn-success" onClick={() => editjob(job._id,job.company,job.position)}>Edit</button> */}
+                              {/* <button type="button"  class="btn btn-danger" onClick={() => deletejob(job._id)}>Delete</button> */}
+                            </div>
+                          </div>
+                        </>
+                        )
+                      }
+                        )
+                      }
+                      </>)
+                  })
+                    : 'no details'}
+              </div>
+            </>)
+          })
+          : 'No file Name'}
+      </div>
