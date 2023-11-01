@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <script src="https://kit.fontawesome.com/22b13c0f86.js" crossorigin="anonymous"></script>
+    <style>
+        #pagediv {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+        }
+
+        #pagediv1,
+        #pagediv2 {
+            outline: 1px solid rgb(96, 93, 93);
+            width: 50%;
+        }
+
+        #searchbox {
+            box-sizing: border-box;
+            width: 100%;
+            margin-right: 20px;
+            padding: 0px;
+            outline: none;
+        }
+
+        #query {
+            box-sizing: border-box;
+            width: 50vw;
+            outline: none;
+            height: auto;
+            /* min-height: 30px; */
+            resize: none;
+            padding-right: 60px;
+            overflow: hidden;
+            overflow-wrap: nowrap;
+            /* word-break: break-all; */
+        }
+
+        body {
+            background-color: rgb(184, 171, 162);
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /* #textdiv {
+            outline: none;
+            display: none;
+        } */
+        #maininpdiv {
+            margin: auto;
+            padding: 150px;
+            top: 0;
+            color: white;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        #QuerySearchButton {
+            position: absolute;
+            float: right;
+            right: 50%;
+        }
+
+        #inputdiv {
+            background-color: rgb(191, 156, 156);
+            width: 100%;
+            height: auto;
+            padding: 50px;
+        }
+
+        #inputdiv input {
+            outline: none;
+            padding: 2px;
+            font-size: 15px;
+        }
+
+        #inputdiv input:focus {
+            outline: none;
+            background-color: rgb(195, 192, 192);
+        }
+
+        #closebtn {
+            position: absolute;
+            right: 0;
+            margin-right: 25%;
+            margin-top: 5%;
+        }
+
+        .list-items {
+            display: block;
+            position: relative;
+            margin-top: -25px;
+            margin-left: -40px;
+            margin-right: 60px;
+        }
+
+        /* list arrw css */
+        .selected {
+            background-color: rgb(242, 16, 16);
+            color: rgb(236, 18, 47);
+        }
+
+        .list-items ul li {
+            width: auto;
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            top: 0px;
+            overflow: hidden;
+            list-style-type: none;
+            border: 0.1px solid black;
+            background-color: antiquewhite;
+        }
+
+        #editableInput,
+        #searchdiv {
+            width: 300px;
+            min-height: 25px;
+            background-color: #f2f2f2;
+            border: 1px solid #ccc;
+            padding: 5px;
+            outline: none;
+        }
+
+        a {
+            text-decoration: underline;
+            color: #3498db;
+            cursor: pointer;
+            margin-left: 5px;
+        }
+
+        /* a:hover {
+            text-decoration: none;
+        } */
+
+        @media (max-width: 6144px) and (min-width: 1922px) {
+
+            /* Your styles for zoom range 25-80% */
+            #pagediv1,
+            #pagediv2 {
+                font-size: 50px;
+                /* background-color: aliceblue; */
+            }
+        }
+
+        @media (max-width: 1922px) and (min-width: 1228px) {
+
+            /* Your styles for zoom range 80-125% */
+            #pagediv1,
+            #pagediv2 {
+                /* background-color: black; */
+                font-size: 30px;
+            }
+
+        }
+
+        @media (max-width: 1228px) {
+
+            /* Your styles for zoom range 125-300% */
+            #pagediv1,
+            #pagediv2 {
+                /* background-color: red; */
+                font-size: 20px;
+            }
+
+        }
+
+        /*open search implementation  */
+        #signal-defination-text,
+        #Open_text_search_string {
+            resize: none;
+        }
+
+        .text-container {
+            position: relative;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            width: 300px;
+        }
+
+        .close-button {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            padding: 5px 10px;
+            background-color: #ff0000;
+            /* Red color for the X button */
+            color: #fff;
+            /* White text color for the X button */
+            border: none;
+            cursor: pointer;
+        }
+
+        .close-button:hover {
+            background-color: hsl(231, 72%, 50%);
+            /* Darker red color on hover */
+        }
+
+        #editableInput {
+            margin: 3px;
+            color: rgb(5, 5, 1);
+        }
+
+        #Which {
+            color: #3498db;
+        }
+
+        #green {
+            color: red;
+        }
+
+        #spanbutton {
+            color: #ff0000;
+            font-size: 15px;
+            position: relative;
+            top: -20px;
+            left: 0px;
+            cursor: pointer;
+        }
+
+        /* modal implementation */
+        #signal_modal {
+            width: 100%;
+            height: 100%;
+            margin-top: 0px;
+        }
+
+        .modal-header {
+            margin: 0px;
+            background-color: aqua;
+            text-align: center;
+        }
+
+        #signal_style,
+        #corpus_Name,
+        #user_signal_name,
+        #signal-defination-text,
+        #searchdiv,
+        #editableInput {
+            width: 98%;
+            height: 40px;
+            font-size: 40px;
+            margin-top: 1%;
+            border-radius: 8px;
+        }
+
+        #signal-defination-text {
+            overflow: hidden;
+        }
+
+        #signal_model {
+            padding: 0px;
+            border-radius: 6px;
+            /* top: 30px; */
+            margin-left: 20%;
+            width: 50%;
+            z-index: 9999;
+            position: absolute;
+            display: block;
+        }
+
+        #editableInput {
+            height: auto;
+        }
+
+        #inputdiv {
+            height: 100%;
+        }
+
+        #h1tag {
+            border-radius: 10px;
+            /* display: none; */
+            font-size: 10px;
+            width: 80%;
+            background-color: white;
+            padding: 2px 5px 2px 5px;
+            color: rgb(0, 110, 255);
+            border: none;
+            padding: 8px;
+            outline: none;
+        }
+
+        .h1tagbtn:hover {
+            cursor: pointer;
+            box-shadow: 0px 0px 10px 2px red;
+        }
+
+        .h1tagbtn {
+            margin: 10px;
+            width: 50px;
+            height: 20px;
+            outline: none;
+            border-radius: 5px;
+            border: none;
+            background-color: red;
+            color: white;
+        }
+
+        .dropbtn {
+            background-color: rgba(244, 239, 239, 0);
+            color: red;
+            border: none;
+            cursor: pointer;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 60px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a,
+        .dropdown-content li {
+            cursor: pointer;
+            color: black;
+            padding: 2px 2px;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* search list css...filteration */
+        #lsdiv {
+            font-size: 15px;
+            height: auto;
+            min-height: auto;
+            max-height: 100px;
+            width: 100%;
+            overflow: auto;
+            background-color: #3498db;
+        }
+
+        #lsdiv ul {
+            text-decoration: none;
+            margin: 0px;
+            padding: 0px;
+            background: aliceblue;
+            cursor: pointer;
+        }
+
+        #lsdiv ul li {
+            text-decoration: none;
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            border: 1px solid black;
+        }
+
+        /* #pagetop{
+            display: flex;
+        } */
+    </style>
+</head>
+<div id="pagetop">
+<div id="pagediv">
+    <!-- <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content" id="listdiv">
+            <li>ihv</li>
+            <li>ihv</li>
+            <li>ihv</li>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </div> -->
+    <!-- <div class="text-container">
+        <div class="text-container">
+            <p>This is your text content. <button class="close-button">X</button></p>
+        </div>
+    </div> -->
+
+    <div id="pagediv1">
+        <input type="radio" title="hi" value="corpus" name="rd" id="corpus" onclick="rd(event.target.value)" />corpus
+        search
+        <input type="radio" title="hi" value="esg" name="rd" id="esg" onclick="rd(event.target.value)" />open search
+        <input type="radio" title="hi" value="inputval" name="rd" id="inputval" onclick="rd(event.target.value)" />input
+        search
+        <div id="searchdiv1" style="display: flex;justify-content: space-around;">
+            <div id="h1tag"></div>
+            <button class="h1tagbtn" id="h1tagbtn" onclick="savesearch()">save</button>
+        </div>
+        <input type="text" title="hi" name="search" placeholder="search here" id="searchbox">
+        <div id="lsdiv"></div>
+        <div id="textdiv" style="display: none;">
+            <textarea id="query" value="'hii" rows="1" maxlength="200" cols="50" placeholder="search query"
+                oninput="incre1(event)" onkeypress="textchange(event)"></textarea>
+            <!-- <textarea maxlength="10" placeholder="search query" id="corpusSearchBox" onkeypress="textchange(event)"></textarea> -->
+            <button type="button" id="QuerySearchButton" onclick="textchange(event) ">show</button>
+            <div class="list-items" id="listdiv">
+                <ul id="list">
+                </ul>
+            </div>
+        </div>
+        <!-- <div id="container"> -->
+        <!-- <div id="editableInput">
+            <a href="#" id="link1">link 1 </a>click here<a href="#" id="link2">link 2 </a>click here
+        </div> -->
+        <!-- </div> -->
+        <div id="maininpdiv">
+            <button type="button" id="closebtn">close</button>
+            <div id="inputdiv">
+                <!-- <div id="container">
+                <input placeholder="query" value="hiiii" type="text" id="inpbtn1" name="input1">
+                <input placeholder="query" type="text" id="inpbtn2" name="input2">
+                </div>
+                <input placeholder="query" type="text" id="inpbtn3" name="input3">
+                <input placeholder="query" type="text" name="input4">
+                <input placeholder="query" type="text" name="input5">
+                <button id="swapbtn">swap</button>-->
+                <div id="signal_model" class="group_content modal-sm" style="margin: 0">
+                    <div class="modal-header" style="margin: 0">
+                        <h5 class="head_font" style="margin: 0;"><span id="signal_modal " style="margin-top: 0;">Signal
+                                Modal</span></h5>
+                    </div>
+                    <div id="bodydiv">
+                        <div>
+                            <label id='corpus-label'>Corpus Name</label>
+                            <input type='text' title="hi" name='corpus_name' id='corpus_Name' readonly="readonly" />
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div>
+                            <label id='signal_style'>Signal Name</label>
+                            <input type='text' title="hi" id='user_signal_name' name='signal_name' />
+                        </div>
+                        <div>
+                            <label id='signal_style'>Signal Defination</label>
+                            <textarea title="hi" id='signal-defination-text' name="siganl-defination-text" ;></textarea>
+                        </div>
+                        <div id="mainserchdiv1">
+                            <label id='signal_style'>Signal Name</label>
+                            <div id="searchdiv">
+                            </div>
+                        </div>
+                        <div id="mainserchdiv">
+                            <label id='signal_style'>open text search string</label>
+                            <div id="editableInput">
+                                <div>
+                                    <!-- <a href="#" id="link1">link 1 </a>click here<a href="#" id="link2">link 2 </a>click here -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer"> <button id="signal_info_button" onclick="getvalues()">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="pagediv2">
+    2
+</div>
+</div>
+</div>
+</body>
+<script src="exp.js"></script>
+
+</html>

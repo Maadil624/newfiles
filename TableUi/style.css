@@ -1,0 +1,165 @@
+#tablediv,#tablediv1,#summarytable,.summarytable{
+    width: 500px;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.remove{
+    display: none;
+}
+.loader{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border-left: 3px solid black;
+    border-right: 1px solid black;
+    border-top: 3px solid black;
+    animation-name: load;
+    animation-duration: 0.5s;
+    animation-timing-function:linear;
+    animation-iteration-count: 3;
+    margin: auto;
+    margin-top: 20%;
+    /* margin-bottom: 50%; */
+}
+#content{
+    text-align: center!important;
+}
+@keyframes load {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+table{
+    padding: 5px;
+}
+
+
+/* drop down css */
+
+.dspl{
+    display: none;
+}
+.display{
+    display: block;
+}
+.table-dark{
+    background-color: black;
+}
+#sumtable{
+    padding: 50pxs;
+    width: 500px;
+    height: 150px;
+    background-color: rgb(230, 210, 210);
+}
+#summarytable{
+    display: none;
+/* padding: 500px; */
+}
+/* search next line using text area */
+#query,#qry {
+    /* margin-right: 0.1px; */
+    width: 100%;
+    height: auto;
+    min-height: 30px;
+    resize: none;
+    padding-right: 60px;
+    overflow: hidden;
+    overflow-wrap: nowrap;
+    word-break: break-all;
+    /* max-height: ; */
+}
+textarea{
+    word-break: break-all;
+}
+#query:focus{
+    /* overflow-y: scroll; */
+    /* outline: none; */
+    /* box-shadow: 0px 0px 5px 2px black; */
+}
+/* #qry:focus{
+    background-color:green ;
+} */
+.clr{
+    color: yellow;
+}
+#textbtn{
+    position: absolute;
+    right: 53%;
+    text-align: center;
+    display: inline-block;
+    /* margin-top: 20px; */
+    /* margin:10px 0px 0px 10px; */
+    /* width: 30px; */
+    /* height: 50px; */
+
+}
+
+/* scrolling divs css firstdiv second div*/
+.first-div ,.first-div1{
+    height: 500px;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.second-div {
+    height: 500px;
+    border: 1px solid red;
+  }
+ .first-div1{
+    overflow: hidden;
+    z-index: 10000;
+  }
+
+  /* div implementation */
+  #div1{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+  }
+  #div11{
+    overflow: scroll;
+    height: 90vh;
+    width: 50%;
+    /* width: ; */
+    border: 1px solid rgb(112, 64, 225);
+  }
+#div12{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 50%;
+    overflow: scroll;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+#div12 button{
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+}
+#div2{
+    height: 500px;
+    border: 1px solid black;
+}
+#div11 h1{
+    /* background-color: black; */
+    margin: 10px;
+}
+.back{
+    color: white;
+    background-color: aquamarine;
+}
+#content1{
+    background-color: rgb(230, 189, 189);
+    font-size: 25px;
+    padding-left:20px ;
+    height: 50px;
+}

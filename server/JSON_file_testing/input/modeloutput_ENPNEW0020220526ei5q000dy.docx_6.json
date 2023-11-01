@@ -1,0 +1,1686 @@
+{
+  "ie2tkg.json": {
+    "meta_data": [
+      {
+        "source_doc_name": "ENPNEW0020220526ei5q000dy.docx",
+        "output_filename": "hd_doc2ie_output_2023-03-02_10-49-39_ENPNEW0020220526ei5q000dy.docx",
+        "processing_time": "2023-03-02_10-49-39",
+        "processing_software_version": "v8",
+        "num_sentences": 38,
+        "sent_simplify": false,
+        "co_ref": false
+      }
+    ],
+    "results": [
+      {
+        "sentences": [
+          {
+            "doc_id": 0,
+            "sid": 0,
+            "text": "Clearway Enterprise's Sponsor, Global Infrastructure Partners, Announces Strategic Partnership with TotalEnergies.",
+            "ner_with_labels": {
+              "Clearway Enterprise's": "ORG",
+              "Global Infrastructure Partners": "ORG",
+              "TotalEnergies": "ORG"
+            },
+            "noun_chunk_head_word": [
+              ["Clearway Enterprise's Sponsor", "Sponsor"],
+              ["Global Infrastructure Partners", "Partners"],
+              ["Strategic Partnership", "Partnership"],
+              ["TotalEnergies", "TotalEnergies"]
+            ],
+            "ner_in_nounchunk": [
+              ["Clearway Enterprise's Sponsor", "Clearway Enterprise's"],
+              [
+                "Global Infrastructure Partners",
+                "Global Infrastructure Partners"
+              ],
+              ["TotalEnergies", "TotalEnergies"]
+            ],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-0", "present-0", "past-0"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s0",
+            "doc_meta_data": {
+              "title": "Clearway Enterprise's Sponsor, Global Infrastructure Partners, Announces Strategic Partnership with TotalEnergies.",
+              "date": "26 May 2022.",
+              "publisher": ""
+            },
+            "pass_through": "YES",
+            "triples": [
+              [
+                "0",
+                "Global Infrastructure Partners",
+                "ORG",
+                "assocWith",
+                "Clearway Enterprise's",
+                "ORG",
+                "0"
+              ],
+              [
+                "0",
+                "Clearway Enterprise's",
+                "ORG",
+                "assocWith",
+                "Global Infrastructure Partners",
+                "ORG",
+                "0"
+              ],
+              [
+                "0",
+                "TotalEnergies",
+                "ORG",
+                "assocWith",
+                "Clearway Enterprise's",
+                "ORG",
+                "0"
+              ]
+            ]
+          },
+          {
+            "doc_id": 0,
+            "sid": 1,
+            "text": "Clearway Enterprise's Sponsor, Global Infrastructure Partners, Announces Strategic Partnership with TotalEnergies. Electronic News Publishing Ltd.",
+            "ner_with_labels": {
+              "Electronic News Publishing Ltd.": "ORG"
+            },
+            "noun_chunk_head_word": [
+              ["Electronic News Publishing Ltd.", "Ltd."]
+            ],
+            "ner_in_nounchunk": [
+              [
+                "Electronic News Publishing Ltd.",
+                "Electronic News Publishing Ltd."
+              ]
+            ],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-0", "present-0", "past-0"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s1",
+            "triples": []
+          },
+          {
+            "doc_id": 0,
+            "sid": 2,
+            "text": "Through this partnership, TotalEnergies will acquire half of GIP's interest in Clearway Group, a privately held renewable development company that serves as the Company's sponsor with its 42% economic interest in the Company.",
+            "ner_with_labels": {
+              "TotalEnergies": "ORG",
+              "half": "CARDINAL",
+              "GIP": "ORG",
+              "Clearway Group": "ORG",
+              "renewable": "GREEN_VARIABLE",
+              "42%": "PERCENT"
+            },
+            "noun_chunk_head_word": [
+              ["this partnership", "partnership"],
+              ["TotalEnergies", "TotalEnergies"],
+              ["half", "half"],
+              ["GIP's interest", "interest"],
+              ["Clearway Group", "Group"],
+              ["a privately held renewable development company", "company"],
+              ["that", "that"],
+              ["the Company's sponsor", "sponsor"],
+              ["its 42% economic interest", "interest"],
+              ["the Company", "Company"]
+            ],
+            "ner_in_nounchunk": [
+              ["TotalEnergies", "TotalEnergies"],
+              ["half", "half"],
+              ["GIP's interest", "GIP"],
+              ["Clearway Group", "Clearway Group"],
+              ["a privately held renewable development company", "renewable"],
+              ["its 42% economic interest", "42%"]
+            ],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-1", "present-1", "past-1"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s2",
+            "triples": [
+              [
+                "2",
+                "TotalEnergies",
+                "ORG",
+                "tracks",
+                "renewable",
+                "GREEN_VARIABLE",
+                "2"
+              ],
+              ["2", "TotalEnergies", "ORG", "assocWith", "GIP", "ORG", "2"],
+              [
+                "2",
+                "renewable",
+                "GREEN_VARIABLE",
+                "increaseOrDecrease",
+                "42%",
+                "PERCENT",
+                "2"
+              ],
+              ["2", "GIP", "ORG", "tracks", "renewable", "GREEN_VARIABLE", "2"],
+              ["2", "GIP", "ORG", "assocWith", "TotalEnergies", "ORG", "2"]
+            ]
+          },
+          {
+            "doc_id": 0,
+            "sid": 3,
+            "text": "In consideration, GIP will receive $1.6 billion cash consideration subject to purchase price adjustments and an approximately 50% interest in the TotalEnergies subsidiary that holds its 51% ownership in SunPower Corporation NASDAQ: SPWR.",
+            "ner_with_labels": {
+              "GIP": "ORG",
+              "$1.6 billion": "MONEY",
+              "approximately 50%": "PERCENT",
+              "TotalEnergies": "ORG",
+              "51%": "PERCENT",
+              "SunPower Corporation NASDAQ": "ORG",
+              "SPWR": "ORG"
+            },
+            "noun_chunk_head_word": [
+              ["consideration", "consideration"],
+              ["GIP", "GIP"],
+              ["$1.6 billion cash consideration", "consideration"],
+              ["purchase price adjustments", "adjustments"],
+              ["an approximately 50% interest", "interest"],
+              ["the TotalEnergies subsidiary", "subsidiary"],
+              ["that", "that"],
+              ["its 51% ownership", "ownership"],
+              ["SunPower Corporation", "Corporation"],
+              ["NASDAQ", "NASDAQ"],
+              ["SPWR", "SPWR"]
+            ],
+            "ner_in_nounchunk": [
+              ["GIP", "GIP"],
+              ["$1.6 billion cash consideration", "$1.6 billion"],
+              ["an approximately 50% interest", "approximately 50%"],
+              ["the TotalEnergies subsidiary", "TotalEnergies"],
+              ["its 51% ownership", "51%"],
+              ["SunPower Corporation", "SunPower Corporation NASDAQ"],
+              ["NASDAQ", "SunPower Corporation NASDAQ"],
+              ["SPWR", "SPWR"]
+            ],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-1", "present-1", "past-0"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s3",
+            "triples": [
+              [
+                "3",
+                "TotalEnergies",
+                "ORG",
+                "investorOrInvestee",
+                "$1.6 billion",
+                "MONEY",
+                "3"
+              ],
+              ["3", "TotalEnergies", "ORG", "assocWith", "GIP", "ORG", "3"],
+              ["3", "GIP", "ORG", "investee", "$1.6 billion", "MONEY", "3"],
+              ["3", "GIP", "ORG", "assocWith", "TotalEnergies", "ORG", "3"]
+            ]
+          },
+          {
+            "doc_id": 0,
+            "sid": 4,
+            "text": "The agreement represents TotalEnergies' largest investment in U.S. renewables to date.",
+            "ner_with_labels": {
+              "TotalEnergies": "ORG",
+              "U.S. renewables": "GREEN_VARIABLE"
+            },
+            "noun_chunk_head_word": [
+              ["The agreement", "agreement"],
+              ["TotalEnergies' largest investment", "investment"],
+              ["U.S. renewables", "renewables"],
+              ["date", "date"]
+            ],
+            "ner_in_nounchunk": [
+              ["TotalEnergies' largest investment", "TotalEnergies"],
+              ["U.S. renewables", "U.S."],
+              ["U.S. renewables", "renewables"]
+            ],
+            "gv_ner_noun_chunk_list": [["U.S. renewables", "renewables"]],
+            "text_block_tense": ["future-0", "present-1", "past-0"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s4",
+            "triples": [
+              [
+                "4",
+                "TotalEnergies",
+                "ORG",
+                "tracks",
+                "U.S. renewables",
+                "GREEN_VARIABLE",
+                "4"
+              ],
+              [
+                "4",
+                "U.S. renewables",
+                "GREEN_VARIABLE",
+                "increase",
+                "approximately 50%",
+                "PERCENT",
+                "3"
+              ]
+            ]
+          },
+          {
+            "doc_id": 0,
+            "sid": 5,
+            "text": "Since early 2021, TotalEnergies has secured a development pipeline of 8 GW onshore renewables and 4 GW offshore wind in the U.S. TotalEnergies will enhance growth prospects for the Clearway enterprise by providing i a right of first offer on its U.S. onshore renewable assets to the Company and ii access to TotalEnergies' power marketing capabilities and corporate relationships to optimize the commercial value of Clearway's development and operating projects.",
+            "ner_with_labels": {
+              "early 2021": "DATE",
+              "TotalEnergies": "ORG",
+              "8 GW": "QUANTITY",
+              "onshore renewables": "GREEN_VARIABLE",
+              "4 GW": "QUANTITY",
+              "offshore wind": "GREEN_VARIABLE",
+              "U.S.": "GPE",
+              "Clearway": "ORG",
+              "first": "ORDINAL",
+              "renewable": "GREEN_VARIABLE",
+              "ii": "CARDINAL"
+            },
+            "noun_chunk_head_word": [
+              ["TotalEnergies", "TotalEnergies"],
+              ["a development pipeline", "pipeline"],
+              ["8 GW onshore renewables", "renewables"],
+              ["4 GW offshore wind", "wind"],
+              ["the U.S.", "U.S."],
+              ["TotalEnergies", "TotalEnergies"],
+              ["growth prospects", "prospects"],
+              ["the Clearway enterprise", "enterprise"],
+              ["a right", "right"],
+              ["first offer", "offer"],
+              ["its U.S. onshore renewable assets", "assets"],
+              ["the Company", "Company"],
+              ["ii access", "access"],
+              ["TotalEnergies' power marketing capabilities", "capabilities"],
+              ["corporate relationships", "relationships"],
+              ["the commercial value", "value"],
+              ["Clearway's development and operating projects", "projects"]
+            ],
+            "ner_in_nounchunk": [
+              ["TotalEnergies", "TotalEnergies"],
+              ["8 GW onshore renewables", "8 GW"],
+              ["8 GW onshore renewables", "onshore renewables"],
+              ["4 GW offshore wind", "4 GW"],
+              ["4 GW offshore wind", "offshore wind"],
+              ["the U.S.", "U.S."],
+              ["TotalEnergies", "TotalEnergies"],
+              ["the Clearway enterprise", "Clearway"],
+              ["first offer", "first"],
+              ["its U.S. onshore renewable assets", "U.S."],
+              ["its U.S. onshore renewable assets", "renewable"],
+              ["ii access", "ii"],
+              ["TotalEnergies' power marketing capabilities", "TotalEnergies"],
+              ["Clearway's development and operating projects", "Clearway"]
+            ],
+            "gv_ner_noun_chunk_list": [
+              ["GW onshore renewables", "onshore renewables"],
+              ["GW offshore wind", "offshore wind"]
+            ],
+            "text_block_tense": ["future-1", "present-2", "past-1"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s5",
+            "triples": [
+              [
+                "5",
+                "TotalEnergies",
+                "ORG",
+                "tracks",
+                "onshore renewables",
+                "GREEN_VARIABLE",
+                "5"
+              ],
+              [
+                "5",
+                "TotalEnergies",
+                "ORG",
+                "assocWith",
+                "Clearway",
+                "ORG",
+                "5"
+              ],
+              ["5", "TotalEnergies", "ORG", "locatedIn", "U.S.", "GPE", "5"],
+              [
+                "5",
+                "renewable",
+                "GREEN_VARIABLE",
+                "increase",
+                "8 GW",
+                "QUANTITY",
+                "5"
+              ],
+              [
+                "5",
+                "renewable",
+                "GREEN_VARIABLE",
+                "gvRepDate",
+                "early 2021",
+                "DATE",
+                "5"
+              ],
+              [
+                "5",
+                "onshore renewables",
+                "GREEN_VARIABLE",
+                "increase",
+                "8 GW",
+                "QUANTITY",
+                "5"
+              ],
+              [
+                "5",
+                "onshore renewables",
+                "GREEN_VARIABLE",
+                "gvRepDate",
+                "early 2021",
+                "DATE",
+                "5"
+              ],
+              [
+                "5",
+                "Clearway",
+                "ORG",
+                "tracks",
+                "onshore renewables",
+                "GREEN_VARIABLE",
+                "5"
+              ],
+              [
+                "5",
+                "Clearway",
+                "ORG",
+                "assocWith",
+                "TotalEnergies",
+                "ORG",
+                "5"
+              ],
+              ["5", "Clearway", "ORG", "locatedIn", "U.S.", "GPE", "5"]
+            ]
+          },
+          {
+            "doc_id": 0,
+            "sid": 6,
+            "text": "'Today's strategic announcement by GIP and TotalEnergies underscores the strength of the Clearway business model and further reinforces the prospects of continued long-term growth for the Company, now with a significantly enhanced sponsor,' said Christopher Sotos, Clearway Energy, Inc.'s President and Chief Executive Officer.",
+            "ner_with_labels": {
+              "Today": "DATE",
+              "GIP": "ORG",
+              "TotalEnergies": "ORG",
+              "Clearway": "ORG",
+              "Christopher Sotos": "PERSON",
+              "Clearway Energy, Inc.'s": "ORG",
+              "President and Chief Executive Officer": "JOB_TITLE"
+            },
+            "noun_chunk_head_word": [
+              ["Today's strategic announcement", "announcement"],
+              ["GIP", "GIP"],
+              ["TotalEnergies", "TotalEnergies"],
+              ["the strength", "strength"],
+              ["the Clearway business model", "model"],
+              ["the prospects", "prospects"],
+              ["continued long-term growth", "growth"],
+              ["the Company", "Company"],
+              ["a significantly enhanced sponsor", "sponsor"],
+              ["Christopher Sotos", "Sotos"],
+              ["Clearway Energy, Inc.'s President", "President"],
+              ["Chief Executive Officer", "Officer"]
+            ],
+            "ner_in_nounchunk": [
+              ["Today's strategic announcement", "Today"],
+              ["GIP", "GIP"],
+              ["TotalEnergies", "TotalEnergies"],
+              ["the Clearway business model", "Clearway"],
+              ["Christopher Sotos", "Christopher Sotos"],
+              ["Clearway Energy, Inc.'s President", "Clearway Energy, Inc.'s"],
+              [
+                "Clearway Energy, Inc.'s President",
+                "President and Chief Executive Officer"
+              ],
+              [
+                "Chief Executive Officer",
+                "President and Chief Executive Officer"
+              ]
+            ],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-0", "present-1", "past-2"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s6",
+            "triples": [
+              ["6", "TotalEnergies", "ORG", "assocWith", "GIP", "ORG", "6"],
+              [
+                "6",
+                "Clearway Energy, Inc.'s",
+                "ORG",
+                "assocWith",
+                "GIP",
+                "ORG",
+                "6"
+              ],
+              ["6", "GIP", "ORG", "assocWith", "TotalEnergies", "ORG", "6"],
+              ["6", "Clearway", "ORG", "assocWith", "GIP", "ORG", "6"]
+            ]
+          },
+          {
+            "doc_id": 0,
+            "sid": 7,
+            "text": "'We look forward to partnering with TotalEnergies on helping them achieve their ambitious target of gross installed renewable power generation capacity of 100 GW by 2030.'.",
+            "ner_with_labels": {
+              "2030": "DATE",
+              "TotalEnergies": "ORG",
+              "renewable power generation capacity": "GREEN_VARIABLE",
+              "100 GW": "QUANTITY"
+            },
+            "noun_chunk_head_word": [
+              ["We", "We"],
+              ["TotalEnergies", "TotalEnergies"],
+              ["them", "them"],
+              ["their ambitious target", "target"],
+              [
+                "gross installed renewable power generation capacity",
+                "capacity"
+              ],
+              ["100 GW", "GW"]
+            ],
+            "ner_in_nounchunk": [
+              ["TotalEnergies", "TotalEnergies"],
+              [
+                "gross installed renewable power generation capacity",
+                "renewable power generation capacity"
+              ],
+              ["100 GW", "100 GW"]
+            ],
+            "gv_ner_noun_chunk_list": [
+              [
+                "renewable power generation capacity",
+                "renewable power generation capacity"
+              ]
+            ],
+            "text_block_tense": ["future-0", "present-3", "past-1"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s7",
+            "triples": [
+              [
+                "7",
+                "TotalEnergies",
+                "ORG",
+                "tracks",
+                "renewable power generation capacity",
+                "GREEN_VARIABLE",
+                "7"
+              ],
+              [
+                "7",
+                "renewable power generation capacity",
+                "GREEN_VARIABLE",
+                "increase",
+                "100 GW",
+                "QUANTITY",
+                "7"
+              ],
+              [
+                "7",
+                "renewable power generation capacity",
+                "GREEN_VARIABLE",
+                "gvRepDate",
+                "2030",
+                "DATE",
+                "7"
+              ]
+            ]
+          },
+          {
+            "doc_id": 0,
+            "sid": 8,
+            "text": "'We're really proud of what this investment says about the business we have built at Clearway, which today operates at the highest levels of scale and capability in US power markets.",
+            "ner_with_labels": {
+              "Clearway": "ORG",
+              "today": "DATE",
+              "US": "GPE"
+            },
+            "noun_chunk_head_word": [
+              ["We", "We"],
+              ["what", "what"],
+              ["this investment", "investment"],
+              ["the business", "business"],
+              ["we", "we"],
+              ["Clearway", "Clearway"],
+              ["which", "which"],
+              ["the highest levels", "levels"],
+              ["scale", "scale"],
+              ["capability", "capability"],
+              ["US power markets", "markets"]
+            ],
+            "ner_in_nounchunk": [
+              ["Clearway", "Clearway"],
+              ["US power markets", "US"]
+            ],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-0", "present-3", "past-1"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s8",
+            "triples": [["8", "Clearway", "ORG", "locatedIn", "US", "GPE", "8"]]
+          },
+          {
+            "doc_id": 0,
+            "sid": 9,
+            "text": "We are delighted by this investment from TotalEnergies, whose global recognition, knowledge of complex energy markets, and experience in emerging clean-energy sectors such as green hydrogen and offshore wind will only enhance our success as a leader in clean energy,' said Craig Cornelius, Chief Executive Officer at Clearway Energy Group LLC.",
+            "ner_with_labels": {
+              "TotalEnergies": "ORG",
+              "green hydrogen and offshore wind": "GREEN_VARIABLE",
+              "leader": "JOB_TITLE",
+              "clean energy": "GREEN_VARIABLE",
+              "Craig Cornelius": "PERSON",
+              "Chief Executive Officer": "JOB_TITLE",
+              "Clearway Energy Group LLC": "ORG"
+            },
+            "noun_chunk_head_word": [
+              ["We", "We"],
+              ["this investment", "investment"],
+              ["TotalEnergies", "TotalEnergies"],
+              ["whose global recognition", "recognition"],
+              ["knowledge", "knowledge"],
+              ["complex energy markets", "markets"],
+              ["experience", "experience"],
+              ["emerging clean-energy sectors", "sectors"],
+              ["green hydrogen", "hydrogen"],
+              ["offshore wind", "wind"],
+              ["our success", "success"],
+              ["a leader", "leader"],
+              ["clean energy", "energy"],
+              ["Craig Cornelius", "Cornelius"],
+              ["Chief Executive Officer", "Officer"],
+              ["Clearway Energy Group LLC", "LLC"]
+            ],
+            "ner_in_nounchunk": [
+              ["TotalEnergies", "TotalEnergies"],
+              ["green hydrogen", "green hydrogen and offshore wind"],
+              ["offshore wind", "green hydrogen and offshore wind"],
+              ["a leader", "leader"],
+              ["clean energy", "clean energy"],
+              ["Craig Cornelius", "Craig Cornelius"],
+              ["Chief Executive Officer", "Chief Executive Officer"],
+              ["Clearway Energy Group LLC", "Clearway Energy Group LLC"]
+            ],
+            "gv_ner_noun_chunk_list": [["clean energy", "clean energy"]],
+            "text_block_tense": ["future-1", "present-2", "past-2"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s9",
+            "triples": [
+              [
+                "9",
+                "clean energy",
+                "GREEN_VARIABLE",
+                "gvRepDate",
+                "today",
+                "DATE",
+                "8"
+              ],
+              [
+                "9",
+                "TotalEnergies",
+                "ORG",
+                "tracks",
+                "green hydrogen and offshore wind",
+                "GREEN_VARIABLE",
+                "9"
+              ],
+              [
+                "9",
+                "TotalEnergies",
+                "ORG",
+                "assocWith",
+                "Clearway Energy Group LLC",
+                "ORG",
+                "9"
+              ],
+              [
+                "9",
+                "green hydrogen and offshore wind",
+                "GREEN_VARIABLE",
+                "gvRepDate",
+                "today",
+                "DATE",
+                "8"
+              ],
+              [
+                "9",
+                "Clearway Energy Group LLC",
+                "ORG",
+                "tracks",
+                "green hydrogen and offshore wind",
+                "GREEN_VARIABLE",
+                "9"
+              ],
+              [
+                "9",
+                "Clearway Energy Group LLC",
+                "ORG",
+                "assocWith",
+                "TotalEnergies",
+                "ORG",
+                "9"
+              ]
+            ]
+          },
+          {
+            "doc_id": 0,
+            "sid": 10,
+            "text": "'We greatly value our long-term relationship with GIP and are thrilled to continue to accelerate Clearway's leadership in the clean energy transition with TotalEnergies' investment.'.",
+            "ner_with_labels": {
+              "GIP": "ORG",
+              "Clearway": "ORG",
+              "clean energy": "GREEN_VARIABLE",
+              "TotalEnergies": "ORG"
+            },
+            "noun_chunk_head_word": [
+              ["We", "We"],
+              ["our long-term relationship", "relationship"],
+              ["GIP", "GIP"],
+              ["Clearway's leadership", "leadership"],
+              ["the clean energy transition", "transition"],
+              ["TotalEnergies' investment", "investment"]
+            ],
+            "ner_in_nounchunk": [
+              ["GIP", "GIP"],
+              ["Clearway's leadership", "Clearway"],
+              ["the clean energy transition", "clean energy"],
+              ["TotalEnergies' investment", "TotalEnergies"]
+            ],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-0", "present-1", "past-1"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s10",
+            "triples": [
+              [
+                "10",
+                "TotalEnergies",
+                "ORG",
+                "tracks",
+                "clean energy",
+                "GREEN_VARIABLE",
+                "10"
+              ],
+              ["10", "TotalEnergies", "ORG", "assocWith", "GIP", "ORG", "10"],
+              [
+                "10",
+                "GIP",
+                "ORG",
+                "tracks",
+                "clean energy",
+                "GREEN_VARIABLE",
+                "10"
+              ],
+              ["10", "GIP", "ORG", "assocWith", "Clearway", "ORG", "10"],
+              [
+                "10",
+                "Clearway",
+                "ORG",
+                "tracks",
+                "clean energy",
+                "GREEN_VARIABLE",
+                "10"
+              ],
+              ["10", "Clearway", "ORG", "assocWith", "GIP", "ORG", "10"]
+            ]
+          },
+          {
+            "doc_id": 0,
+            "sid": 11,
+            "text": "Both transactions between GIP and TotalEnergies are subject to customary conditions, including receipt of requisite regulatory approvals.",
+            "ner_with_labels": {
+              "GIP": "ORG",
+              "TotalEnergies": "ORG"
+            },
+            "noun_chunk_head_word": [
+              ["Both transactions", "transactions"],
+              ["GIP", "GIP"],
+              ["TotalEnergies", "TotalEnergies"],
+              ["customary conditions", "conditions"],
+              ["receipt", "receipt"],
+              ["requisite regulatory approvals", "approvals"]
+            ],
+            "ner_in_nounchunk": [
+              ["GIP", "GIP"],
+              ["TotalEnergies", "TotalEnergies"]
+            ],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-0", "present-2", "past-0"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s11",
+            "triples": [
+              ["11", "TotalEnergies", "ORG", "assocWith", "GIP", "ORG", "11"],
+              ["11", "GIP", "ORG", "assocWith", "TotalEnergies", "ORG", "11"]
+            ]
+          },
+          {
+            "doc_id": 0,
+            "sid": 12,
+            "text": "For more details on GIP's announcement, please refer to the press release here.",
+            "ner_with_labels": {
+              "GIP": "ORG"
+            },
+            "noun_chunk_head_word": [
+              ["more details", "details"],
+              ["GIP's announcement", "announcement"],
+              ["the press release", "release"]
+            ],
+            "ner_in_nounchunk": [["GIP's announcement", "GIP"]],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-0", "present-0", "past-0"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s12",
+            "triples": []
+          },
+          {
+            "doc_id": 0,
+            "sid": 13,
+            "text": "About Clearway Energy, Inc.",
+            "ner_with_labels": {
+              "Clearway Energy, Inc.": "ORG"
+            },
+            "noun_chunk_head_word": [["Clearway Energy, Inc.", "Inc."]],
+            "ner_in_nounchunk": [
+              ["Clearway Energy, Inc.", "Clearway Energy, Inc."]
+            ],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-0", "present-0", "past-0"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s13",
+            "triples": []
+          },
+          {
+            "doc_id": 0,
+            "sid": 14,
+            "text": "Clearway Energy, Inc. is one of the largest renewable energy owners in the US with over 5,000 net MW of installed wind and solar generation projects.",
+            "ner_with_labels": {
+              "Clearway Energy, Inc.": "ORG",
+              "renewable energy": "GREEN_VARIABLE",
+              "US": "GPE",
+              "over 5,000 net MW": "QUANTITY",
+              "wind and solar generation": "GREEN_VARIABLE"
+            },
+            "noun_chunk_head_word": [
+              ["Clearway Energy, Inc.", "Inc."],
+              ["the largest renewable energy owners", "owners"],
+              ["the US", "US"],
+              ["over 5,000 net MW", "MW"],
+              ["installed wind and solar generation projects", "projects"]
+            ],
+            "ner_in_nounchunk": [
+              ["Clearway Energy, Inc.", "Clearway Energy, Inc."],
+              ["the largest renewable energy owners", "renewable energy"],
+              ["the US", "US"],
+              ["over 5,000 net MW", "over 5,000 net MW"],
+              [
+                "installed wind and solar generation projects",
+                "wind and solar generation"
+              ]
+            ],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-0", "present-1", "past-1"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s14",
+            "triples": [
+              [
+                "14",
+                "Clearway Energy, Inc.",
+                "ORG",
+                "tracks",
+                "renewable energy",
+                "GREEN_VARIABLE",
+                "14"
+              ],
+              [
+                "14",
+                "Clearway Energy, Inc.",
+                "ORG",
+                "locatedIn",
+                "US",
+                "GPE",
+                "14"
+              ],
+              [
+                "14",
+                "renewable energy",
+                "GREEN_VARIABLE",
+                "increaseOrDecrease",
+                "over 5,000 net MW",
+                "QUANTITY",
+                "14"
+              ]
+            ]
+          },
+          {
+            "doc_id": 0,
+            "sid": 15,
+            "text": "The Company's over 7,500 net MW of assets also include approximately 2,500 net MW of environmentally sound, highly efficient natural gas generation facilities.",
+            "ner_with_labels": {
+              "over 7,500 net MW": "QUANTITY",
+              "approximately 2,500 net MW": "QUANTITY",
+              "environmentally": "GREEN_VARIABLE",
+              "natural gas generation": "GREEN_VARIABLE"
+            },
+            "noun_chunk_head_word": [
+              ["The Company's over 7,500 net MW", "MW"],
+              ["assets", "assets"],
+              ["approximately 2,500 net MW", "MW"],
+              [
+                "environmentally sound, highly efficient natural gas generation facilities",
+                "facilities"
+              ]
+            ],
+            "ner_in_nounchunk": [
+              ["The Company's over 7,500 net MW", "over 7,500 net MW"],
+              ["approximately 2,500 net MW", "approximately 2,500 net MW"],
+              [
+                "environmentally sound, highly efficient natural gas generation facilities",
+                "environmentally"
+              ],
+              [
+                "environmentally sound, highly efficient natural gas generation facilities",
+                "natural gas generation"
+              ]
+            ],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-0", "present-1", "past-0"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s15",
+            "triples": []
+          },
+          {
+            "doc_id": 0,
+            "sid": 16,
+            "text": "Through this environmentally-sound diversified and primarily contracted portfolio, Clearway Energy endeavors to provide its investors with stable and growing dividend income.",
+            "ner_with_labels": {
+              "environmentally": "GREEN_VARIABLE",
+              "Clearway Energy": "ORG"
+            },
+            "noun_chunk_head_word": [
+              [
+                "this environmentally-sound diversified and primarily contracted portfolio",
+                "portfolio"
+              ],
+              ["Clearway Energy", "Energy"],
+              ["its investors", "investors"],
+              ["stable and growing dividend income", "income"]
+            ],
+            "ner_in_nounchunk": [
+              [
+                "this environmentally-sound diversified and primarily contracted portfolio",
+                "environmentally"
+              ],
+              ["Clearway Energy", "Clearway Energy"]
+            ],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-0", "present-1", "past-1"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s16",
+            "triples": []
+          },
+          {
+            "doc_id": 0,
+            "sid": 17,
+            "text": "Clearway Energy's Class C and Class A common stock are traded on the New York Stock Exchange under the symbols CWEN and CWEN.A, respectively.",
+            "ner_with_labels": {
+              "Clearway Energy's": "ORG",
+              "the New York Stock Exchange": "ORG",
+              "CWEN": "ORG",
+              "CWEN.A": "ORG"
+            },
+            "noun_chunk_head_word": [
+              ["Clearway Energy's Class C and Class A common stock", "stock"],
+              ["the New York Stock Exchange", "Exchange"],
+              ["the symbols", "symbols"],
+              ["CWEN", "CWEN"],
+              ["CWEN.A", "CWEN.A"]
+            ],
+            "ner_in_nounchunk": [
+              [
+                "Clearway Energy's Class C and Class A common stock",
+                "Clearway Energy's"
+              ],
+              ["the New York Stock Exchange", "the New York Stock Exchange"],
+              ["CWEN", "CWEN"],
+              ["CWEN.A", "CWEN.A"]
+            ],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-0", "present-1", "past-1"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s17",
+            "triples": []
+          },
+          {
+            "doc_id": 0,
+            "sid": 18,
+            "text": "Clearway Energy, Inc. is sponsored by its controlling investor, Global Infrastructure Partners.",
+            "ner_with_labels": {
+              "Clearway Energy, Inc.": "ORG",
+              "Global Infrastructure Partners": "ORG"
+            },
+            "noun_chunk_head_word": [
+              ["Clearway Energy, Inc.", "Inc."],
+              ["its controlling investor", "investor"],
+              ["Global Infrastructure Partners", "Partners"]
+            ],
+            "ner_in_nounchunk": [
+              ["Clearway Energy, Inc.", "Clearway Energy, Inc."],
+              [
+                "Global Infrastructure Partners",
+                "Global Infrastructure Partners"
+              ]
+            ],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-0", "present-2", "past-1"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s18",
+            "triples": [
+              [
+                "18",
+                "Global Infrastructure Partners",
+                "ORG",
+                "assocWith",
+                "Clearway Energy, Inc.",
+                "ORG",
+                "18"
+              ],
+              [
+                "18",
+                "Clearway Energy, Inc.",
+                "ORG",
+                "assocWith",
+                "Global Infrastructure Partners",
+                "ORG",
+                "18"
+              ]
+            ]
+          },
+          {
+            "doc_id": 0,
+            "sid": 19,
+            "text": "About Clearway Energy Group.",
+            "ner_with_labels": {
+              "Clearway Energy Group": "ORG"
+            },
+            "noun_chunk_head_word": [["Clearway Energy Group", "Group"]],
+            "ner_in_nounchunk": [
+              ["Clearway Energy Group", "Clearway Energy Group"]
+            ],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-0", "present-0", "past-0"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s19",
+            "triples": []
+          },
+          {
+            "doc_id": 0,
+            "sid": 20,
+            "text": "Clearway Energy Group is leading the transition to a world powered by clean energy.",
+            "ner_with_labels": {
+              "Clearway Energy Group": "ORG",
+              "clean energy": "GREEN_VARIABLE"
+            },
+            "noun_chunk_head_word": [
+              ["Clearway Energy Group", "Group"],
+              ["the transition", "transition"],
+              ["a world", "world"],
+              ["clean energy", "energy"]
+            ],
+            "ner_in_nounchunk": [
+              ["Clearway Energy Group", "Clearway Energy Group"],
+              ["clean energy", "clean energy"]
+            ],
+            "gv_ner_noun_chunk_list": [["clean energy", "clean energy"]],
+            "text_block_tense": ["future-0", "present-2", "past-1"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s20",
+            "triples": [
+              [
+                "20",
+                "Clearway Energy Group",
+                "ORG",
+                "tracks",
+                "clean energy",
+                "GREEN_VARIABLE",
+                "20"
+              ]
+            ]
+          },
+          {
+            "doc_id": 0,
+            "sid": 21,
+            "text": "Along with our public affiliate Clearway Energy, Inc., we own and operate more than 8 gigawatts of renewable and conventional energy assets across the country.",
+            "ner_with_labels": {
+              "Clearway Energy, Inc.": "ORG",
+              "more than 8 gigawatts": "QUANTITY",
+              "renewable": "GREEN_VARIABLE"
+            },
+            "noun_chunk_head_word": [
+              ["our public affiliate", "affiliate"],
+              ["Clearway Energy, Inc.", "Inc."],
+              ["we", "we"],
+              ["more than 8 gigawatts", "gigawatts"],
+              ["renewable and conventional energy assets", "assets"],
+              ["the country", "country"]
+            ],
+            "ner_in_nounchunk": [
+              ["Clearway Energy, Inc.", "Clearway Energy, Inc."],
+              ["more than 8 gigawatts", "more than 8 gigawatts"],
+              ["renewable and conventional energy assets", "renewable"]
+            ],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-0", "present-1", "past-0"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s21",
+            "triples": [
+              [
+                "21",
+                "Clearway Energy, Inc.",
+                "ORG",
+                "tracks",
+                "renewable",
+                "GREEN_VARIABLE",
+                "21"
+              ],
+              [
+                "21",
+                "renewable",
+                "GREEN_VARIABLE",
+                "increase",
+                "more than 8 gigawatts",
+                "QUANTITY",
+                "21"
+              ]
+            ]
+          },
+          {
+            "doc_id": 0,
+            "sid": 22,
+            "text": "As we develop a nationwide pipeline of new renewable energy projects for the future, Clearway's 5.6 gigawatts of wind, solar, and energy storage assets offset the equivalent of more than 10.5 million metric tons of carbon emissions for our customers today.",
+            "ner_with_labels": {
+              "Clearway": "ORG",
+              "5.6 gigawatts": "QUANTITY",
+              "wind": "GREEN_VARIABLE",
+              "solar": "GREEN_VARIABLE",
+              "energy storage": "GREEN_VARIABLE",
+              "more than 10.5 million metric tons": "QUANTITY",
+              "carbon emissions": "GREEN_VARIABLE",
+              "today": "DATE"
+            },
+            "noun_chunk_head_word": [
+              ["we", "we"],
+              ["a nationwide pipeline", "pipeline"],
+              ["new renewable energy projects", "projects"],
+              ["the future", "future"],
+              ["Clearway's 5.6 gigawatts", "gigawatts"],
+              ["wind, solar, and energy storage assets", "assets"],
+              ["the equivalent", "equivalent"],
+              ["more than 10.5 million metric tons", "tons"],
+              ["carbon emissions", "emissions"],
+              ["our customers", "customers"]
+            ],
+            "ner_in_nounchunk": [
+              ["Clearway's 5.6 gigawatts", "Clearway"],
+              ["Clearway's 5.6 gigawatts", "5.6 gigawatts"],
+              ["wind, solar, and energy storage assets", "wind"],
+              ["wind, solar, and energy storage assets", "solar"],
+              ["wind, solar, and energy storage assets", "energy storage"],
+              [
+                "more than 10.5 million metric tons",
+                "more than 10.5 million metric tons"
+              ],
+              ["carbon emissions", "carbon emissions"]
+            ],
+            "gv_ner_noun_chunk_list": [
+              ["carbon emissions", "carbon emissions"]
+            ],
+            "text_block_tense": ["future-0", "present-3", "past-0"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s22",
+            "triples": [
+              [
+                "22",
+                "Clearway",
+                "ORG",
+                "tracks",
+                "wind",
+                "GREEN_VARIABLE",
+                "22"
+              ],
+              [
+                "22",
+                "wind",
+                "GREEN_VARIABLE",
+                "increase",
+                "5.6 gigawatts",
+                "QUANTITY",
+                "22"
+              ],
+              [
+                "22",
+                "wind",
+                "GREEN_VARIABLE",
+                "gvRepDate",
+                "today",
+                "DATE",
+                "22"
+              ]
+            ]
+          },
+          {
+            "doc_id": 0,
+            "sid": 23,
+            "text": "Clearway Energy Group is headquartered in San Francisco with offices in Carlsbad, Calif.",
+            "ner_with_labels": {
+              "Clearway Energy Group": "ORG",
+              "San Francisco": "GPE",
+              "Carlsbad": "GPE",
+              "Calif.": "GPE"
+            },
+            "noun_chunk_head_word": [
+              ["Clearway Energy Group", "Group"],
+              ["San Francisco", "Francisco"],
+              ["offices", "offices"],
+              ["Carlsbad", "Carlsbad"],
+              ["Calif.", "Calif."]
+            ],
+            "ner_in_nounchunk": [
+              ["Clearway Energy Group", "Clearway Energy Group"],
+              ["San Francisco", "San Francisco"],
+              ["Carlsbad", "Carlsbad"],
+              ["Calif.", "Calif."]
+            ],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-0", "present-1", "past-1"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s23",
+            "triples": [
+              [
+                "23",
+                "Clearway Energy Group",
+                "ORG",
+                "locatedIn",
+                "San Francisco",
+                "GPE",
+                "23"
+              ]
+            ]
+          },
+          {
+            "doc_id": 0,
+            "sid": 24,
+            "text": "Scottsdale, Ariz.",
+            "ner_with_labels": {
+              "Scottsdale": "GPE",
+              "Ariz.": "GPE"
+            },
+            "noun_chunk_head_word": [
+              ["Scottsdale", "Scottsdale"],
+              ["Ariz.", "Ariz."]
+            ],
+            "ner_in_nounchunk": [
+              ["Scottsdale", "Scottsdale"],
+              ["Ariz.", "Ariz."]
+            ],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-0", "present-0", "past-0"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s24",
+            "triples": []
+          },
+          {
+            "doc_id": 0,
+            "sid": 25,
+            "text": "Houston and Princeton, N.J. Safe Harbor Disclosure.",
+            "ner_with_labels": {
+              "Houston and Princeton": "GPE",
+              "N.J.": "GPE"
+            },
+            "noun_chunk_head_word": [
+              ["Houston", "Houston"],
+              ["Princeton", "Princeton"],
+              ["N.J.", "N.J."],
+              ["Safe Harbor Disclosure", "Disclosure"]
+            ],
+            "ner_in_nounchunk": [
+              ["Houston", "Houston and Princeton"],
+              ["Princeton", "Houston and Princeton"],
+              ["N.J.", "N.J."]
+            ],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-0", "present-0", "past-0"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s25",
+            "triples": []
+          },
+          {
+            "doc_id": 0,
+            "sid": 26,
+            "text": "This news release contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933 and Section 21E of the Securities Exchange Act of 1934.",
+            "ner_with_labels": {
+              "Section 27A of the Securities Act of 1933 and Section 21E of the Securities Exchange Act of 1934": "LAW"
+            },
+            "noun_chunk_head_word": [
+              ["This news release", "release"],
+              ["forward-looking statements", "statements"],
+              ["the meaning", "meaning"],
+              ["Section", "Section"],
+              ["the Securities Act", "Act"],
+              ["Section", "Section"],
+              ["the Securities Exchange Act", "Act"]
+            ],
+            "ner_in_nounchunk": [
+              [
+                "Section",
+                "Section 27A of the Securities Act of 1933 and Section 21E of the Securities Exchange Act of 1934"
+              ],
+              [
+                "the Securities Act",
+                "Section 27A of the Securities Act of 1933 and Section 21E of the Securities Exchange Act of 1934"
+              ],
+              [
+                "Section",
+                "Section 27A of the Securities Act of 1933 and Section 21E of the Securities Exchange Act of 1934"
+              ],
+              [
+                "the Securities Exchange Act",
+                "Section 27A of the Securities Act of 1933 and Section 21E of the Securities Exchange Act of 1934"
+              ]
+            ],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-0", "present-1", "past-0"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s26",
+            "triples": []
+          },
+          {
+            "doc_id": 0,
+            "sid": 27,
+            "text": "Such forward-looking statements are subject to certain risks, uncertainties and assumptions, and typically can be identified by the use of words such as 'expect,' 'estimate,' 'target,' 'anticipate,' 'forecast,' 'plan,' 'outlook,' 'believe' and similar terms.",
+            "ner_with_labels": {},
+            "noun_chunk_head_word": [
+              ["Such forward-looking statements", "statements"],
+              ["certain risks", "risks"],
+              ["uncertainties", "uncertainties"],
+              ["assumptions", "assumptions"],
+              ["the use", "use"],
+              ["words", "words"],
+              [",' 'estimate", "estimate"],
+              ["' 'target", "target"],
+              ["' 'anticipate", "anticipate"],
+              ["' 'forecast", "forecast"],
+              [",' 'plan", "plan"],
+              ["' 'outlook", "outlook"],
+              ["similar terms", "terms"]
+            ],
+            "ner_in_nounchunk": [],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-1", "present-1", "past-1"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s27",
+            "triples": []
+          },
+          {
+            "doc_id": 0,
+            "sid": 28,
+            "text": "Such forward-looking statements include, but are not limited to, statements regarding the anticipated consummation of the transactions described above, the anticipated benefits, opportunities, and results with respect to the transactions, including the Company's anticipated future relationship and arrangements with Global Infrastructure Partners, TotalEnergies and Clearway Energy Group, as well as the Company's growth prospects, projected financial performance and/or business results and other future events, and views of economic and market conditions.",
+            "ner_with_labels": {
+              "Global Infrastructure Partners": "ORG",
+              "TotalEnergies": "ORG",
+              "Clearway Energy Group": "ORG"
+            },
+            "noun_chunk_head_word": [
+              ["Such forward-looking statements", "statements"],
+              ["statements", "statements"],
+              ["the anticipated consummation", "consummation"],
+              ["the transactions", "transactions"],
+              ["the anticipated benefits", "benefits"],
+              ["opportunities", "opportunities"],
+              ["results", "results"],
+              ["respect", "respect"],
+              ["the transactions", "transactions"],
+              ["the Company's anticipated future relationship", "relationship"],
+              ["arrangements", "arrangements"],
+              ["Global Infrastructure Partners", "Partners"],
+              ["TotalEnergies", "TotalEnergies"],
+              ["Clearway Energy Group", "Group"],
+              ["the Company's growth prospects", "prospects"],
+              ["projected financial performance", "performance"],
+              ["business results", "results"],
+              ["other future events", "events"],
+              ["views", "views"],
+              ["economic and market conditions", "conditions"]
+            ],
+            "ner_in_nounchunk": [
+              [
+                "Global Infrastructure Partners",
+                "Global Infrastructure Partners"
+              ],
+              ["TotalEnergies", "TotalEnergies"],
+              ["Clearway Energy Group", "Clearway Energy Group"]
+            ],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-0", "present-3", "past-2"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s28",
+            "triples": [
+              [
+                "28",
+                "Clearway Energy Group",
+                "ORG",
+                "assocWith",
+                "Global Infrastructure Partners",
+                "ORG",
+                "28"
+              ],
+              [
+                "28",
+                "Global Infrastructure Partners",
+                "ORG",
+                "assocWith",
+                "TotalEnergies",
+                "ORG",
+                "28"
+              ],
+              [
+                "28",
+                "TotalEnergies",
+                "ORG",
+                "assocWith",
+                "Global Infrastructure Partners",
+                "ORG",
+                "28"
+              ]
+            ]
+          },
+          {
+            "doc_id": 0,
+            "sid": 29,
+            "text": "Although Clearway Energy, Inc.",
+            "ner_with_labels": {
+              "Clearway Energy, Inc.": "ORG"
+            },
+            "noun_chunk_head_word": [
+              ["Although Clearway Energy, Inc.", "Inc."]
+            ],
+            "ner_in_nounchunk": [
+              ["Although Clearway Energy, Inc.", "Clearway Energy, Inc."]
+            ],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-0", "present-0", "past-0"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s29",
+            "triples": []
+          },
+          {
+            "doc_id": 0,
+            "sid": 30,
+            "text": "believes that the expectations are reasonable, it can give no assurance that these expectations will prove to be correct, and actual results may vary materially.",
+            "ner_with_labels": {},
+            "noun_chunk_head_word": [
+              ["the expectations", "expectations"],
+              ["it", "it"],
+              ["no assurance", "assurance"],
+              ["these expectations", "expectations"],
+              ["actual results", "results"]
+            ],
+            "ner_in_nounchunk": [],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-3", "present-2", "past-0"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s30",
+            "triples": []
+          },
+          {
+            "doc_id": 0,
+            "sid": 31,
+            "text": "Factors that could cause actual results to differ materially from those contemplated above include, among others, the Company's ability to maintain and grow its quarterly dividend, impacts related to COVID-19 including any variant of the virus or any other pandemic, risks relating to the Company's relationships with its sponsors, the failure to identify, execute or successfully implement acquisitions or dispositions including receipt of third party consents and regulatory approvals , the Company's ability to acquire assets from its sponsors, the Company's ability to raise additional capital due to its indebtedness, corporate structure, market conditions or otherwise, hazards customary in the power industry, weather conditions, including wind and solar performance, the Company's ability to operate its businesses efficiently, manage maintenance capital expenditures and costs effectively, and generate earnings and cash flows from its asset-based businesses in relation to its debt and other obligations, the willingness and ability of counterparties to the Company's offtake agreements to fulfill their obligations under such agreements, the Company's ability to enter into new contracts as existing contracts expire, changes in government regulations, operating and financial restrictions placed on the Company that are contained in the project-level debt facilities and other agreements of the Company and its subsidiaries, cyber terrorism and inadequate cybersecurity and the Company's ability to borrow additional funds and access capital markets.",
+            "ner_with_labels": {
+              "quarterly": "DATE",
+              "third": "ORDINAL",
+              "weather": "GREEN_VARIABLE",
+              "wind and solar": "GREEN_VARIABLE"
+            },
+            "noun_chunk_head_word": [
+              ["Factors", "Factors"],
+              ["that", "that"],
+              ["actual results", "results"],
+              ["those", "those"],
+              ["others", "others"],
+              ["the Company's ability", "ability"],
+              ["its quarterly dividend", "dividend"],
+              ["impacts", "impacts"],
+              ["COVID-19", "COVID-19"],
+              ["any variant", "variant"],
+              ["the virus", "virus"],
+              ["any other pandemic", "pandemic"],
+              ["risks", "risks"],
+              ["the Company's relationships", "relationships"],
+              ["its sponsors", "sponsors"],
+              ["the failure", "failure"],
+              ["acquisitions", "acquisitions"],
+              ["dispositions", "dispositions"],
+              ["receipt", "receipt"],
+              ["third party consents", "consents"],
+              ["regulatory approvals", "approvals"],
+              ["the Company's ability", "ability"],
+              ["assets", "assets"],
+              ["its sponsors", "sponsors"],
+              ["the Company's ability", "ability"],
+              ["additional capital", "capital"],
+              ["its indebtedness", "indebtedness"],
+              ["corporate structure", "structure"],
+              ["market conditions", "conditions"],
+              ["hazards", "hazards"],
+              ["the power industry", "industry"],
+              ["weather conditions", "conditions"],
+              ["wind and solar performance", "performance"],
+              ["the Company's ability", "ability"],
+              ["its businesses", "businesses"],
+              ["maintenance capital expenditures", "expenditures"],
+              ["costs", "costs"],
+              ["earnings", "earnings"],
+              ["cash flows", "flows"],
+              ["its asset-based businesses", "businesses"],
+              ["relation", "relation"],
+              ["its debt and other obligations", "obligations"],
+              ["the willingness", "willingness"],
+              ["ability", "ability"],
+              ["counterparties", "counterparties"],
+              ["the Company's offtake agreements", "agreements"],
+              ["their obligations", "obligations"],
+              ["such agreements", "agreements"],
+              ["the Company's ability", "ability"],
+              ["new contracts", "contracts"],
+              ["existing contracts", "contracts"],
+              ["changes", "changes"],
+              ["government regulations", "regulations"],
+              ["operating and financial restrictions", "restrictions"],
+              ["the Company", "Company"],
+              ["that", "that"],
+              ["the project-level debt facilities", "facilities"],
+              ["other agreements", "agreements"],
+              ["the Company", "Company"],
+              ["its subsidiaries", "subsidiaries"],
+              ["cyber terrorism", "terrorism"],
+              ["inadequate cybersecurity", "cybersecurity"],
+              ["the Company's ability", "ability"],
+              ["additional funds", "funds"],
+              ["capital markets", "markets"]
+            ],
+            "ner_in_nounchunk": [
+              ["its quarterly dividend", "quarterly"],
+              ["third party consents", "third"],
+              ["weather conditions", "weather"],
+              ["wind and solar performance", "wind and solar"]
+            ],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-1", "present-10", "past-4"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s31",
+            "triples": []
+          },
+          {
+            "doc_id": 0,
+            "sid": 32,
+            "text": "Furthermore, any dividends are subject to available capital, market conditions, and compliance with associated laws and regulations.",
+            "ner_with_labels": {},
+            "noun_chunk_head_word": [
+              ["any dividends", "dividends"],
+              ["available capital", "capital"],
+              ["market conditions", "conditions"],
+              ["compliance", "compliance"],
+              ["associated laws", "laws"],
+              ["regulations", "regulations"]
+            ],
+            "ner_in_nounchunk": [],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-0", "present-1", "past-1"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s32",
+            "triples": []
+          },
+          {
+            "doc_id": 0,
+            "sid": 33,
+            "text": "Clearway Energy, Inc.",
+            "ner_with_labels": {
+              "Clearway Energy, Inc.": "ORG"
+            },
+            "noun_chunk_head_word": [["Clearway Energy, Inc.", "Inc."]],
+            "ner_in_nounchunk": [
+              ["Clearway Energy, Inc.", "Clearway Energy, Inc."]
+            ],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-0", "present-0", "past-0"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s33",
+            "triples": []
+          },
+          {
+            "doc_id": 0,
+            "sid": 34,
+            "text": "undertakes no obligation to update or revise any forward-looking statements, whether as a result of new information, future events or otherwise.",
+            "ner_with_labels": {},
+            "noun_chunk_head_word": [
+              ["no obligation", "obligation"],
+              ["any forward-looking statements", "statements"],
+              ["a result", "result"],
+              ["new information", "information"],
+              ["future events", "events"]
+            ],
+            "ner_in_nounchunk": [],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-0", "present-0", "past-0"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s34",
+            "triples": []
+          },
+          {
+            "doc_id": 0,
+            "sid": 35,
+            "text": "The foregoing review of factors that could cause Clearway Energy, Inc.'s actual results to differ materially from those contemplated in the forward-looking statements included in this news release should be considered in connection with information regarding risks and uncertainties that may affect Clearway Energy, Inc.'s future results included in Clearway Energy, Inc.'s filings with the Securities and Exchange Commission at . In addition, Clearway Energy, Inc.",
+            "ner_with_labels": {
+              "Clearway Energy, Inc.'s": "ORG",
+              "Clearway Energy, Inc.": "ORG",
+              "the Securities and Exchange Commission": "ORG"
+            },
+            "noun_chunk_head_word": [
+              ["The foregoing review", "review"],
+              ["factors", "factors"],
+              ["that", "that"],
+              ["Clearway Energy, Inc.'s actual results", "results"],
+              ["those", "those"],
+              ["the forward-looking statements", "statements"],
+              ["this news release", "release"],
+              ["connection", "connection"],
+              ["information", "information"],
+              ["risks", "risks"],
+              ["uncertainties", "uncertainties"],
+              ["that", "that"],
+              ["Clearway Energy, Inc.'s future results", "results"],
+              ["Clearway Energy, Inc.'s filings", "filings"],
+              ["the Securities and Exchange Commission", "Commission"],
+              ["addition", "addition"]
+            ],
+            "ner_in_nounchunk": [
+              [
+                "Clearway Energy, Inc.'s actual results",
+                "Clearway Energy, Inc.'s"
+              ],
+              [
+                "Clearway Energy, Inc.'s future results",
+                "Clearway Energy, Inc.'s"
+              ],
+              ["Clearway Energy, Inc.'s filings", "Clearway Energy, Inc."],
+              [
+                "the Securities and Exchange Commission",
+                "the Securities and Exchange Commission"
+              ]
+            ],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-3", "present-2", "past-4"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s35",
+            "triples": [
+              [
+                "35",
+                "Clearway Energy, Inc.",
+                "ORG",
+                "assocWith",
+                "Clearway Energy, Inc.'s",
+                "ORG",
+                "35"
+              ],
+              [
+                "35",
+                "Clearway Energy, Inc.'s",
+                "ORG",
+                "assocWith",
+                "Clearway Energy, Inc.",
+                "ORG",
+                "35"
+              ]
+            ]
+          },
+          {
+            "doc_id": 0,
+            "sid": 36,
+            "text": "makes available free of charge at , copies of materials it files with, or furnishes to, the Securities and Exchange Commission.",
+            "ner_with_labels": {
+              "the Securities and Exchange Commission": "ORG"
+            },
+            "noun_chunk_head_word": [
+              ["charge", "charge"],
+              ["copies", "copies"],
+              ["materials", "materials"],
+              ["it", "it"]
+            ],
+            "ner_in_nounchunk": [],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-0", "present-2", "past-0"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s36",
+            "triples": []
+          },
+          {
+            "doc_id": 0,
+            "sid": 37,
+            "text": "Contact: Akil Marsh Tel: 609-608-1500 Email: Editorial queries for this story should be sent to.",
+            "ner_with_labels": {
+              "Akil Marsh": "PERSON",
+              "609-608-1500": "CARDINAL"
+            },
+            "noun_chunk_head_word": [
+              ["Akil Marsh", "Marsh"],
+              ["Tel", "Tel"],
+              ["Editorial queries", "queries"],
+              ["this story", "story"]
+            ],
+            "ner_in_nounchunk": [["Akil Marsh", "Akil Marsh"]],
+            "gv_ner_noun_chunk_list": [],
+            "text_block_tense": ["future-1", "present-0", "past-1"],
+            "file_name": "ENPNEW0020220526ei5q000dy.docx",
+            "textBlock_number": "ENPNEW0020220526ei5q000dy.docx_s37",
+            "triples": []
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.20/dist/sweetalert2.all.min.js
+"></script>
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.20/dist/sweetalert2.min.css
+" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+<style>
+    /* #popup{
+        position: absolute;
+        background-color: aqua;
+        width: 100%;
+        height: 100%;
+        top: 100px;
+        margin: auto;
+    }
+    #inside{
+        background-color: blue;
+        width: 120%;
+        height: 120%;
+    } */
+</style>
+</head>
+<body>
+    <!--<button type="button" onclick="summary()">button</button>
+    <div id="summarymaindiv">
+        <div id="summarytable" class="summarytable">
+            <table class="table">
+                    <tr class="table-dark">
+                        <th scope="col" id="index">S.No</th>
+                        <th scope="col" id="summary">Summary</th>
+                    </tr>
+                <tbody id="summarytb" class="table-secondary">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="loading">
+        <div id="loader" class="loader">
+        </div>
+        <br /><br />
+        <h1 id="content">Loading data Please wait</h1>
+    </div>
+    <div class="remove" id="dpdn">
+        <label for="state">Select State:</label>
+        <select id="state" name="states" onchange="getstate()">
+            <option value="">choose state</option>
+            <option value="Assam">Assam</option>
+            <option value="AndhraPradesh">AndhraPradesh</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Chandigarh">Chandigarh</option>
+        </select>
+        <label for="district">Select district:</label>
+        <select id="district" name="districts" onchange="getdistrict()">
+            <option value="">Choose district</option>
+        </select>
+        <label for="village">Select village:</label>
+        <select id="village" name="villages" onchange="getvillage()">
+            <option value="">Choose village</option>
+        </select>
+    </div>
+    <div id="tablediv" class="remove">
+        <table class="table">
+            <thead>
+                <tr class="table-dark">
+                    <th scope="col" id="colid"></th>
+                    <th scope="col" id="colFn"></th>
+                    <th scope="col" id="colSn"></th>
+                </tr>
+            </thead>
+            <tbody id="tablebody" class="table-secondary">
+                <input type="search" placeholder="type here" id="searchInput"/>
+            -->
+        </tbody>
+    </table>
+</div>
+<div id="tablediv1" class="remove">
+    <table class="table">
+        <thead>
+            <tr class="table-dark">
+                <th scope="col" id="h1h">State</th>
+                <th scope="col" id="h2h">District</th>
+                <th scope="col" id="h3h">village</th>
+            </tr>
+        </thead>
+        <tbody id="stablebody" class="table-secondary">
+        </tbody>
+    </table>
+</div>
+<!-- <h1 id="h1tag">df</h1> -->
+<input type="search" placeholder="type here" id="searchInput"/>
+<!-- <input type="search" placeholder="type here" id="searchInput"/> -->
+    <!-- <div class="first-div1" id="divid1">
+       first-div
+    </div>
+    <div class="first-div">
+       first-div
+    </div>
+    <div class="first-div">
+       first-div
+    </div>
+
+    <div id="second" class="second-div">
+        second div
+    </div> -->
+    <!-- <button type="button" onclick="show()">show</button>
+    <div style="height: 250px;">ihbhib</div>
+    <div id="content1" >scsc</div>
+    -->
+    <textarea id="qry" maxlength="200" placeholder="Search here" maxlength="200"></textarea>
+    <div id="div1">
+        <div id="div11">
+            <h1>Web Search</h1>
+            <div id="textdiv">
+                <textarea id="query" rows="1" cols="50" placeholder="Search here" oninput="incre(event)">
+                </textarea>
+                <!-- <input name="input" placeholder="hi" type="text" id="query1"> -->
+                <button id='textbtn'onclick="searchWeb()">Search</button>
+            </div>
+            <h1 id="h1" value="1">1</h1>
+            <h1 id="h2" value="2">2</h1>
+            <h1 id="h3" value="3">3</h1>
+            <h1 id="h4" value="4">4</h1>
+            <h1 id="h5" value="5">5</h1>
+            <h1 id="h6" value="6">6</h1>
+            <h1 id="h7" value="7">7</h1>
+            <h1 id="h8" value="8">8</h1>
+            <h1 id="h9" value="9">9</h1>
+            <h1 id="h10" value="10">10</h1>
+            <h1 id="h11" value="11">11</h1>
+            <h1 id="h12" value="12">12</h1>
+            <h1 id="h13" value="13">13</h1>
+            <h1 id="h14" value="14">14</h1>
+            <h1 id="h15" value="15">15</h1>
+            <h1 id="h16" value="16">16</h1>
+            <h1 id="h17" value="17">17</h1>
+            <h1 id="h18" value="18">18</h1>
+            <h1 id="h19" value="19">19</h1>
+            <h1 id="h20" value="20">20</h1>
+        </div>
+        <div id="div12">
+            <button type="submit" draggable="true" onclick="migrate(event.target)" id="b1">1</button>
+            <button type="submit" onclick="migrate(event.target)" id="b2">2</button>
+            <button type="submit" onclick="migrate(event.target)" id="b3">3</button>
+            <button type="submit" onclick="migrate(event.target)" id="b4">4</button>
+            <button type="submit" onclick="migrate(event.target)" id="b5">5</button>
+            <button type="submit" onclick="migrate(event.target)" id="b6">6</button>
+            <button type="submit" onclick="migrate(event.target)" id="b7">7</button>
+            <button type="submit" onclick="migrate(event.target)" id="b8">8</button>
+            <button type="submit" onclick="migrate(event.target)" id="b9">9</button>
+            <button type="submit" onclick="migrate(event.target)" id="b10">10</button>
+            <button type="submit" onclick="migrate(event.target)" id="b11">11</button>
+            <button type="submit" onclick="migrate(event.target)" id="b12">12</button>
+            <button type="submit" onclick="migrate(event.target)" id="b13">13</button>
+            <button type="submit" onclick="migrate(event.target)" id="b14">14</button>
+            <button type="submit" onclick="migrate(event.target)" id="b15">15</button>
+            <button type="submit" onclick="migrate(event.target)" id="b16">16</button>
+            <button type="submit" onclick="migrate(event.target)" id="b17">17</button>
+            <button type="submit" onclick="migrate(event.target)" id="b18">18</button>
+            <button type="submit" onclick="migrate(event.target)" id="b19">19</button>
+            <button type="submit" onclick="migrate(event.target)" id="b20">20</button>
+        </div>
+    </div>
+    <div id="div2">
+    </div>
+    <div id="results">
+        
+    </div>
+    <div id="popup">
+        <div id="inside">lipoihoihiohiohio</div>
+    </div>
+    <button id="dis" onclick="dis()">click</button>
+</body>
+<script src="script.js"></script>
+
+</html>

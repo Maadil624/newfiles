@@ -1,0 +1,1374 @@
+{
+    "ie2tkg.json": {
+        "meta_data": [
+            {
+                "source_doc_name": "ESG-today-59.docx",
+                "output_filename": "hd_doc2ie_output_2023-02-28_09-10-04_ESG-today-59.docx",
+                "processing_time": "2023-02-28_09-10-04",
+                "processing_software_version": "v8",
+                "num_sentences": 14,
+                "sent_simplify": false,
+                "co_ref": false
+            }
+        ],
+        "results": [
+            {
+                "sentences": [
+                    {
+                        "doc_id": 0,
+                        "sid": 0,
+                        "text": "NextEra Sells 50% Stake in 2.5 GW Renewables Portfolio for $849 Million.",
+                        "ner_with_labels": {
+                            "NextEra": "ORG",
+                            "50%": "PERCENT",
+                            "2.5 GW": "QUANTITY",
+                            "Renewables": "GREEN_VARIABLE",
+                            "$849 Million": "MONEY"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "NextEra",
+                                "NextEra"
+                            ],
+                            [
+                                "50% Stake",
+                                "Stake"
+                            ],
+                            [
+                                "2.5 GW Renewables Portfolio",
+                                "Portfolio"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "NextEra",
+                                "NextEra"
+                            ],
+                            [
+                                "50% Stake",
+                                "50%"
+                            ],
+                            [
+                                "2.5 GW Renewables Portfolio",
+                                "2.5 GW"
+                            ],
+                            [
+                                "2.5 GW Renewables Portfolio",
+                                "Renewables"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [],
+                        "text_block_tense": [
+                            "future-0",
+                            "present-0",
+                            "past-0"
+                        ],
+                        "file_name": "ESG-today-59.docx",
+                        "textBlock_number": "ESG-today-59.docx_s0",
+                        "doc_meta_data": {
+                            "title": "NextEra Sells 50% Stake in 2.5 GW Renewables Portfolio for $849 Million.",
+                            "date": "December 1, 2021.",
+                            "publisher": "Emanuela Kerencheva."
+                        },
+                        "pass_through": "YES",
+                        "triples": []
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 1,
+                        "text": "NextEra Sells 50% Stake in 2.5 GW Renewables Portfolio for $849 Million. NextEra Energy Resources, a subsidiary of clean energy company NextEra Energy announced today an agreement to sell 50% interest in a 2.5 GW portfolio of wind, solar, and energy storage assets across the U.S to the Ontario Teachers' Pension Plan Board OTPP for $849 million.",
+                        "ner_with_labels": {
+                            "NextEra Energy Resources": "ORG",
+                            "clean energy": "GREEN_VARIABLE",
+                            "NextEra Energy": "ORG",
+                            "today": "DATE",
+                            "50%": "PERCENT",
+                            "2.5 GW": "QUANTITY",
+                            "wind": "GREEN_VARIABLE",
+                            "solar": "GREEN_VARIABLE",
+                            "energy storage": "GREEN_VARIABLE",
+                            "U.S": "GPE",
+                            "the Ontario Teachers' Pension Plan Board OTPP": "ORG",
+                            "$849 million": "MONEY"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "NextEra Energy Resources",
+                                "Resources"
+                            ],
+                            [
+                                "a subsidiary",
+                                "subsidiary"
+                            ],
+                            [
+                                "clean energy company NextEra Energy",
+                                "Energy"
+                            ],
+                            [
+                                "an agreement",
+                                "agreement"
+                            ],
+                            [
+                                "50% interest",
+                                "interest"
+                            ],
+                            [
+                                "a 2.5 GW portfolio",
+                                "portfolio"
+                            ],
+                            [
+                                "wind, solar, and energy storage assets",
+                                "assets"
+                            ],
+                            [
+                                "the U.S",
+                                "U.S"
+                            ],
+                            [
+                                "the Ontario Teachers' Pension Plan Board OTPP",
+                                "OTPP"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "NextEra Energy Resources",
+                                "NextEra Energy Resources"
+                            ],
+                            [
+                                "clean energy company NextEra Energy",
+                                "clean energy"
+                            ],
+                            [
+                                "clean energy company NextEra Energy",
+                                "NextEra Energy"
+                            ],
+                            [
+                                "50% interest",
+                                "50%"
+                            ],
+                            [
+                                "a 2.5 GW portfolio",
+                                "2.5 GW"
+                            ],
+                            [
+                                "wind, solar, and energy storage assets",
+                                "wind"
+                            ],
+                            [
+                                "wind, solar, and energy storage assets",
+                                "solar"
+                            ],
+                            [
+                                "wind, solar, and energy storage assets",
+                                "energy storage"
+                            ],
+                            [
+                                "the U.S",
+                                "U.S"
+                            ],
+                            [
+                                "the Ontario Teachers' Pension Plan Board OTPP",
+                                "the Ontario Teachers' Pension Plan Board OTPP"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [],
+                        "text_block_tense": [
+                            "future-0",
+                            "present-0",
+                            "past-1"
+                        ],
+                        "file_name": "ESG-today-59.docx",
+                        "textBlock_number": "ESG-today-59.docx_s1",
+                        "triples": [
+                            [
+                                "1",
+                                "NextEra Energy",
+                                "ORG",
+                                "assocWith",
+                                "NextEra Energy Resources",
+                                "ORG",
+                                "1"
+                            ],
+                            [
+                                "1",
+                                "NextEra Energy",
+                                "ORG",
+                                "locatedIn",
+                                "U.S",
+                                "GPE",
+                                "1"
+                            ],
+                            [
+                                "1",
+                                "NextEra Energy",
+                                "ORG",
+                                "investorOrInvestee",
+                                "$849 million",
+                                "MONEY",
+                                "1"
+                            ],
+                            [
+                                "1",
+                                "NextEra Energy",
+                                "ORG",
+                                "tracks",
+                                "clean energy",
+                                "GREEN_VARIABLE",
+                                "1"
+                            ],
+                            [
+                                "1",
+                                "NextEra Energy Resources",
+                                "ORG",
+                                "assocWith",
+                                "NextEra Energy",
+                                "ORG",
+                                "1"
+                            ],
+                            [
+                                "1",
+                                "NextEra Energy Resources",
+                                "ORG",
+                                "locatedIn",
+                                "U.S",
+                                "GPE",
+                                "1"
+                            ],
+                            [
+                                "1",
+                                "NextEra Energy Resources",
+                                "ORG",
+                                "investee",
+                                "$849 million",
+                                "MONEY",
+                                "1"
+                            ],
+                            [
+                                "1",
+                                "NextEra Energy Resources",
+                                "ORG",
+                                "tracks",
+                                "clean energy",
+                                "GREEN_VARIABLE",
+                                "1"
+                            ],
+                            [
+                                "1",
+                                "clean energy",
+                                "GREEN_VARIABLE",
+                                "increaseOrDecrease",
+                                "2.5 GW",
+                                "QUANTITY",
+                                "1"
+                            ],
+                            [
+                                "1",
+                                "clean energy",
+                                "GREEN_VARIABLE",
+                                "increase",
+                                "50%",
+                                "PERCENT",
+                                "1"
+                            ],
+                            [
+                                "1",
+                                "clean energy",
+                                "GREEN_VARIABLE",
+                                "gvRepDate",
+                                "today",
+                                "DATE",
+                                "1"
+                            ],
+                            [
+                                "1",
+                                "today",
+                                "DATE",
+                                "putRecvDate",
+                                "$849 million",
+                                "MONEY",
+                                "1"
+                            ]
+                        ]
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 2,
+                        "text": "The portfolio consists of 13 long-term contracted renewable assets, including a variety of wind and solar facilities across several states in the US, with a total capacity of approximately 2,520 MW.",
+                        "ner_with_labels": {
+                            "13": "CARDINAL",
+                            "renewable": "GREEN_VARIABLE",
+                            "wind and solar": "GREEN_VARIABLE",
+                            "US": "GPE",
+                            "approximately 2,520 MW": "QUANTITY"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "The portfolio",
+                                "portfolio"
+                            ],
+                            [
+                                "13 long-term contracted renewable assets",
+                                "assets"
+                            ],
+                            [
+                                "a variety",
+                                "variety"
+                            ],
+                            [
+                                "wind and solar facilities",
+                                "facilities"
+                            ],
+                            [
+                                "several states",
+                                "states"
+                            ],
+                            [
+                                "the US",
+                                "US"
+                            ],
+                            [
+                                "a total capacity",
+                                "capacity"
+                            ],
+                            [
+                                "approximately 2,520 MW",
+                                "MW"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "13 long-term contracted renewable assets",
+                                "13"
+                            ],
+                            [
+                                "13 long-term contracted renewable assets",
+                                "renewable"
+                            ],
+                            [
+                                "wind and solar facilities",
+                                "wind and solar"
+                            ],
+                            [
+                                "the US",
+                                "US"
+                            ],
+                            [
+                                "approximately 2,520 MW",
+                                "approximately 2,520 MW"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [],
+                        "text_block_tense": [
+                            "future-0",
+                            "present-2",
+                            "past-1"
+                        ],
+                        "file_name": "ESG-today-59.docx",
+                        "textBlock_number": "ESG-today-59.docx_s2",
+                        "triples": [
+                            [
+                                "2",
+                                "renewable",
+                                "GREEN_VARIABLE",
+                                "increase",
+                                "approximately 2,520 MW",
+                                "QUANTITY",
+                                "2"
+                            ],
+                            [
+                                "2",
+                                "renewable",
+                                "GREEN_VARIABLE",
+                                "increase",
+                                "25%",
+                                "PERCENT",
+                                "3"
+                            ],
+                            [
+                                "2",
+                                "renewable",
+                                "GREEN_VARIABLE",
+                                "gvRepDate",
+                                "October 2021",
+                                "DATE",
+                                "3"
+                            ]
+                        ]
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 3,
+                        "text": "Additionally, Ontario Teachers' has committed to purchase at least a 25% interest in the $824 million convertible equity portfolio financing announced by NextEra Energy in October 2021.",
+                        "ner_with_labels": {
+                            "Ontario Teachers'": "ORG",
+                            "25%": "PERCENT",
+                            "$824 million": "MONEY",
+                            "NextEra Energy": "ORG",
+                            "October 2021": "DATE"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "Ontario Teachers",
+                                "Teachers"
+                            ],
+                            [
+                                "at least a 25% interest",
+                                "interest"
+                            ],
+                            [
+                                "the $824 million convertible equity portfolio financing",
+                                "financing"
+                            ],
+                            [
+                                "NextEra Energy",
+                                "Energy"
+                            ],
+                            [
+                                "October",
+                                "October"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "Ontario Teachers",
+                                "Ontario Teachers'"
+                            ],
+                            [
+                                "at least a 25% interest",
+                                "25%"
+                            ],
+                            [
+                                "the $824 million convertible equity portfolio financing",
+                                "$824 million"
+                            ],
+                            [
+                                "NextEra Energy",
+                                "NextEra Energy"
+                            ],
+                            [
+                                "October",
+                                "October 2021"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [],
+                        "text_block_tense": [
+                            "future-0",
+                            "present-1",
+                            "past-2"
+                        ],
+                        "file_name": "ESG-today-59.docx",
+                        "textBlock_number": "ESG-today-59.docx_s3",
+                        "triples": [
+                            [
+                                "3",
+                                "NextEra Energy",
+                                "ORG",
+                                "assocWith",
+                                "Ontario Teachers'",
+                                "ORG",
+                                "3"
+                            ],
+                            [
+                                "3",
+                                "NextEra Energy",
+                                "ORG",
+                                "investorOrInvestee",
+                                "$824 million",
+                                "MONEY",
+                                "3"
+                            ],
+                            [
+                                "3",
+                                "NextEra Energy",
+                                "ORG",
+                                "locatedIn",
+                                "US",
+                                "GPE",
+                                "2"
+                            ],
+                            [
+                                "3",
+                                "NextEra Energy",
+                                "ORG",
+                                "tracks",
+                                "renewable",
+                                "GREEN_VARIABLE",
+                                "2"
+                            ],
+                            [
+                                "3",
+                                "Ontario Teachers'",
+                                "ORG",
+                                "assocWith",
+                                "NextEra Energy",
+                                "ORG",
+                                "3"
+                            ],
+                            [
+                                "3",
+                                "Ontario Teachers'",
+                                "ORG",
+                                "investee",
+                                "$824 million",
+                                "MONEY",
+                                "3"
+                            ],
+                            [
+                                "3",
+                                "Ontario Teachers'",
+                                "ORG",
+                                "locatedIn",
+                                "US",
+                                "GPE",
+                                "2"
+                            ],
+                            [
+                                "3",
+                                "Ontario Teachers'",
+                                "ORG",
+                                "tracks",
+                                "renewable",
+                                "GREEN_VARIABLE",
+                                "2"
+                            ],
+                            [
+                                "3",
+                                "October 2021",
+                                "DATE",
+                                "putRecvDate",
+                                "$824 million",
+                                "MONEY",
+                                "3"
+                            ]
+                        ]
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 4,
+                        "text": "Chris Ireland, Managing Director, Greenfield and Renewables at Ontario Teachers'.",
+                        "ner_with_labels": {
+                            "Chris Ireland": "PERSON",
+                            "Managing Director": "JOB_TITLE",
+                            "Greenfield and Renewables": "ORG",
+                            "Ontario Teachers'": "ORG"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "Chris Ireland",
+                                "Ireland"
+                            ],
+                            [
+                                "Managing Director",
+                                "Director"
+                            ],
+                            [
+                                "Greenfield",
+                                "Greenfield"
+                            ],
+                            [
+                                "Renewables",
+                                "Renewables"
+                            ],
+                            [
+                                "Ontario Teachers",
+                                "Teachers"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "Chris Ireland",
+                                "Chris Ireland"
+                            ],
+                            [
+                                "Managing Director",
+                                "Managing Director"
+                            ],
+                            [
+                                "Greenfield",
+                                "Greenfield and Renewables"
+                            ],
+                            [
+                                "Renewables",
+                                "Greenfield and Renewables"
+                            ],
+                            [
+                                "Ontario Teachers",
+                                "Ontario Teachers'"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [],
+                        "text_block_tense": [
+                            "future-0",
+                            "present-0",
+                            "past-0"
+                        ],
+                        "file_name": "ESG-today-59.docx",
+                        "textBlock_number": "ESG-today-59.docx_s4",
+                        "triples": [
+                            [
+                                "4",
+                                "Ontario Teachers'",
+                                "ORG",
+                                "assocWith",
+                                "Greenfield and Renewables",
+                                "ORG",
+                                "4"
+                            ],
+                            [
+                                "4",
+                                "Ontario Teachers'",
+                                "ORG",
+                                "tracks",
+                                "quality renewable energy assets",
+                                "GREEN_VARIABLE",
+                                "5"
+                            ],
+                            [
+                                "4",
+                                "Greenfield and Renewables",
+                                "ORG",
+                                "assocWith",
+                                "Ontario Teachers'",
+                                "ORG",
+                                "4"
+                            ],
+                            [
+                                "4",
+                                "Greenfield and Renewables",
+                                "ORG",
+                                "tracks",
+                                "quality renewable energy assets",
+                                "GREEN_VARIABLE",
+                                "5"
+                            ]
+                        ]
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 5,
+                        "text": "We are excited to make this significant investment and to grow our global portfolio of high-quality renewable energy assets.",
+                        "ner_with_labels": {
+                            "quality renewable energy assets": "GREEN_VARIABLE"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "We",
+                                "We"
+                            ],
+                            [
+                                "this significant investment",
+                                "investment"
+                            ],
+                            [
+                                "our global portfolio",
+                                "portfolio"
+                            ],
+                            [
+                                "high-quality renewable energy assets",
+                                "assets"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "high-quality renewable energy assets",
+                                "renewable energy assets"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [
+                            [
+                                "quality renewable energy assets",
+                                "renewable energy assets"
+                            ]
+                        ],
+                        "text_block_tense": [
+                            "future-0",
+                            "present-1",
+                            "past-1"
+                        ],
+                        "file_name": "ESG-today-59.docx",
+                        "textBlock_number": "ESG-today-59.docx_s5",
+                        "triples": []
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 6,
+                        "text": "NextEra Energy is one of the world's leading renewable energy companies and they share our focus on shaping a better future through the development of sustainable energy.",
+                        "ner_with_labels": {
+                            "NextEra Energy": "ORG",
+                            "renewable energy": "GREEN_VARIABLE"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "NextEra Energy",
+                                "Energy"
+                            ],
+                            [
+                                "the world's leading renewable energy companies",
+                                "companies"
+                            ],
+                            [
+                                "they",
+                                "they"
+                            ],
+                            [
+                                "our focus",
+                                "focus"
+                            ],
+                            [
+                                "a better future",
+                                "future"
+                            ],
+                            [
+                                "the development",
+                                "development"
+                            ],
+                            [
+                                "sustainable energy",
+                                "energy"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "NextEra Energy",
+                                "NextEra Energy"
+                            ],
+                            [
+                                "the world's leading renewable energy companies",
+                                "renewable energy"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [],
+                        "text_block_tense": [
+                            "future-0",
+                            "present-3",
+                            "past-0"
+                        ],
+                        "file_name": "ESG-today-59.docx",
+                        "textBlock_number": "ESG-today-59.docx_s6",
+                        "triples": [
+                            [
+                                "6",
+                                "NextEra Energy",
+                                "ORG",
+                                "tracks",
+                                "renewable energy",
+                                "GREEN_VARIABLE",
+                                "6"
+                            ]
+                        ]
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 7,
+                        "text": "This investment marks the beginning of what we expect will be a long-term partnership with NextEra Energy.",
+                        "ner_with_labels": {
+                            "NextEra Energy": "ORG"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "This investment",
+                                "investment"
+                            ],
+                            [
+                                "the beginning",
+                                "beginning"
+                            ],
+                            [
+                                "what",
+                                "what"
+                            ],
+                            [
+                                "we",
+                                "we"
+                            ],
+                            [
+                                "a long-term partnership",
+                                "partnership"
+                            ],
+                            [
+                                "NextEra Energy",
+                                "Energy"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "NextEra Energy",
+                                "NextEra Energy"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [],
+                        "text_block_tense": [
+                            "future-1",
+                            "present-2",
+                            "past-0"
+                        ],
+                        "file_name": "ESG-today-59.docx",
+                        "textBlock_number": "ESG-today-59.docx_s7",
+                        "triples": []
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 8,
+                        "text": "The proceeds from the agreement are expected to be redeployed into new wind, solar, and battery storage growth opportunities, including NextEra Energy Resources' more than 18,000-MW renewables and storage backlog.",
+                        "ner_with_labels": {
+                            "wind": "GREEN_VARIABLE",
+                            "solar": "GREEN_VARIABLE",
+                            "battery storage": "GREEN_VARIABLE",
+                            "NextEra Energy Resources'": "ORG",
+                            "18,000-MW": "QUANTITY",
+                            "renewables and storage": "GREEN_VARIABLE"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "The proceeds",
+                                "proceeds"
+                            ],
+                            [
+                                "the agreement",
+                                "agreement"
+                            ],
+                            [
+                                "new wind, solar, and battery storage growth opportunities",
+                                "opportunities"
+                            ],
+                            [
+                                "NextEra Energy Resources' more than 18,000-MW renewables and storage backlog",
+                                "backlog"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "new wind, solar, and battery storage growth opportunities",
+                                "wind"
+                            ],
+                            [
+                                "new wind, solar, and battery storage growth opportunities",
+                                "solar"
+                            ],
+                            [
+                                "new wind, solar, and battery storage growth opportunities",
+                                "battery storage"
+                            ],
+                            [
+                                "NextEra Energy Resources' more than 18,000-MW renewables and storage backlog",
+                                "NextEra Energy Resources'"
+                            ],
+                            [
+                                "NextEra Energy Resources' more than 18,000-MW renewables and storage backlog",
+                                "18,000-MW"
+                            ],
+                            [
+                                "NextEra Energy Resources' more than 18,000-MW renewables and storage backlog",
+                                "renewables and storage"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [],
+                        "text_block_tense": [
+                            "future-0",
+                            "present-2",
+                            "past-2"
+                        ],
+                        "file_name": "ESG-today-59.docx",
+                        "textBlock_number": "ESG-today-59.docx_s8",
+                        "triples": []
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 9,
+                        "text": "Over the operating life of the assets in the portfolio, the company is also expected to receive ongoing annual fee income, starting with approximately $16 million in year one, and escalating going forward for operations, maintenance, and management services.",
+                        "ner_with_labels": {
+                            "annual": "DATE",
+                            "approximately $16 million": "MONEY",
+                            "year one": "DATE"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "the operating life",
+                                "life"
+                            ],
+                            [
+                                "the assets",
+                                "assets"
+                            ],
+                            [
+                                "the portfolio",
+                                "portfolio"
+                            ],
+                            [
+                                "the company",
+                                "company"
+                            ],
+                            [
+                                "ongoing annual fee income",
+                                "income"
+                            ],
+                            [
+                                "year",
+                                "year"
+                            ],
+                            [
+                                "operations",
+                                "operations"
+                            ],
+                            [
+                                "maintenance",
+                                "maintenance"
+                            ],
+                            [
+                                "management services",
+                                "services"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "ongoing annual fee income",
+                                "annual"
+                            ],
+                            [
+                                "year",
+                                "year one"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [],
+                        "text_block_tense": [
+                            "future-0",
+                            "present-5",
+                            "past-1"
+                        ],
+                        "file_name": "ESG-today-59.docx",
+                        "textBlock_number": "ESG-today-59.docx_s9",
+                        "triples": []
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 10,
+                        "text": "NextEra Energy stated that the remaining 50% interest in the portfolio is under an agreement to be sold by NextEra Energy Resources to NextEra Energy Partners, LP.",
+                        "ner_with_labels": {
+                            "NextEra Energy": "ORG",
+                            "50%": "PERCENT",
+                            "NextEra Energy Resources": "ORG",
+                            "NextEra Energy Partners, LP": "ORG"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "NextEra Energy",
+                                "Energy"
+                            ],
+                            [
+                                "the remaining 50% interest",
+                                "interest"
+                            ],
+                            [
+                                "the portfolio",
+                                "portfolio"
+                            ],
+                            [
+                                "an agreement",
+                                "agreement"
+                            ],
+                            [
+                                "NextEra Energy Resources",
+                                "Resources"
+                            ],
+                            [
+                                "NextEra Energy Partners, LP",
+                                "LP"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "NextEra Energy",
+                                "NextEra Energy"
+                            ],
+                            [
+                                "the remaining 50% interest",
+                                "50%"
+                            ],
+                            [
+                                "NextEra Energy Resources",
+                                "NextEra Energy Resources"
+                            ],
+                            [
+                                "NextEra Energy Partners, LP",
+                                "NextEra Energy Partners, LP"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [],
+                        "text_block_tense": [
+                            "future-0",
+                            "present-2",
+                            "past-2"
+                        ],
+                        "file_name": "ESG-today-59.docx",
+                        "textBlock_number": "ESG-today-59.docx_s10",
+                        "triples": [
+                            [
+                                "10",
+                                "NextEra Energy",
+                                "ORG",
+                                "assocWith",
+                                "NextEra Energy Resources",
+                                "ORG",
+                                "10"
+                            ],
+                            [
+                                "10",
+                                "NextEra Energy",
+                                "ORG",
+                                "investee",
+                                "approximately $16 million",
+                                "MONEY",
+                                "9"
+                            ],
+                            [
+                                "10",
+                                "NextEra Energy Resources",
+                                "ORG",
+                                "assocWith",
+                                "NextEra Energy",
+                                "ORG",
+                                "10"
+                            ],
+                            [
+                                "10",
+                                "NextEra Energy Resources",
+                                "ORG",
+                                "investee",
+                                "approximately $16 million",
+                                "MONEY",
+                                "9"
+                            ]
+                        ]
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 11,
+                        "text": "Jim Robo, NextEra Energy chairman, and CEO, said: This transaction is expected to generate significant value for NextEra Energy shareholders.",
+                        "ner_with_labels": {
+                            "Jim Robo": "PERSON",
+                            "NextEra Energy": "ORG",
+                            "chairman": "JOB_TITLE",
+                            "CEO": "JOB_TITLE"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "Jim Robo",
+                                "Robo"
+                            ],
+                            [
+                                "NextEra Energy chairman",
+                                "chairman"
+                            ],
+                            [
+                                "CEO",
+                                "CEO"
+                            ],
+                            [
+                                "This transaction",
+                                "transaction"
+                            ],
+                            [
+                                "significant value",
+                                "value"
+                            ],
+                            [
+                                "NextEra Energy shareholders",
+                                "shareholders"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "Jim Robo",
+                                "Jim Robo"
+                            ],
+                            [
+                                "NextEra Energy chairman",
+                                "NextEra Energy"
+                            ],
+                            [
+                                "NextEra Energy chairman",
+                                "chairman"
+                            ],
+                            [
+                                "CEO",
+                                "CEO"
+                            ],
+                            [
+                                "NextEra Energy shareholders",
+                                "NextEra Energy"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [],
+                        "text_block_tense": [
+                            "future-0",
+                            "present-2",
+                            "past-1"
+                        ],
+                        "file_name": "ESG-today-59.docx",
+                        "textBlock_number": "ESG-today-59.docx_s11",
+                        "triples": []
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 12,
+                        "text": "In addition to generating attractive ongoing fee income, the sale of 50% of the portfolio to NextEra Energy Partners and 50% to a high-quality partner like Ontario Teachers' provides an opportunity to take advantage of the robust demand for high-quality, long-term contracted renewable energy assets and efficiently recycle nearly $3.4 billion in total capital that is expected to be redeployed into new renewables growth opportunities.",
+                        "ner_with_labels": {
+                            "50%": "PERCENT",
+                            "NextEra Energy Partners": "ORG",
+                            "Ontario Teachers'": "ORG",
+                            "renewable energy assets": "GREEN_VARIABLE",
+                            "nearly $3.4 billion": "MONEY",
+                            "renewables": "GREEN_VARIABLE"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "addition",
+                                "addition"
+                            ],
+                            [
+                                "attractive ongoing fee income",
+                                "income"
+                            ],
+                            [
+                                "the sale",
+                                "sale"
+                            ],
+                            [
+                                "50%",
+                                "%"
+                            ],
+                            [
+                                "the portfolio",
+                                "portfolio"
+                            ],
+                            [
+                                "NextEra Energy Partners",
+                                "Partners"
+                            ],
+                            [
+                                "50%",
+                                "%"
+                            ],
+                            [
+                                "a high-quality partner",
+                                "partner"
+                            ],
+                            [
+                                "Ontario Teachers",
+                                "Teachers"
+                            ],
+                            [
+                                "an opportunity",
+                                "opportunity"
+                            ],
+                            [
+                                "advantage",
+                                "advantage"
+                            ],
+                            [
+                                "the robust demand",
+                                "demand"
+                            ],
+                            [
+                                "high-quality, long-term contracted renewable energy assets",
+                                "assets"
+                            ],
+                            [
+                                "total capital",
+                                "capital"
+                            ],
+                            [
+                                "that",
+                                "that"
+                            ],
+                            [
+                                "new renewables growth opportunities",
+                                "opportunities"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "50%",
+                                "50%"
+                            ],
+                            [
+                                "NextEra Energy Partners",
+                                "NextEra Energy Partners"
+                            ],
+                            [
+                                "50%",
+                                "50%"
+                            ],
+                            [
+                                "Ontario Teachers",
+                                "Ontario Teachers'"
+                            ],
+                            [
+                                "high-quality, long-term contracted renewable energy assets",
+                                "renewable energy assets"
+                            ],
+                            [
+                                "new renewables growth opportunities",
+                                "renewables"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [
+                            [
+                                "renewable energy assets",
+                                "renewable energy assets"
+                            ]
+                        ],
+                        "text_block_tense": [
+                            "future-0",
+                            "present-4",
+                            "past-3"
+                        ],
+                        "file_name": "ESG-today-59.docx",
+                        "textBlock_number": "ESG-today-59.docx_s12",
+                        "triples": [
+                            [
+                                "12",
+                                "Ontario Teachers'",
+                                "ORG",
+                                "assocWith",
+                                "NextEra Energy Partners",
+                                "ORG",
+                                "12"
+                            ],
+                            [
+                                "12",
+                                "Ontario Teachers'",
+                                "ORG",
+                                "investorOrInvestee",
+                                "nearly $3.4 billion",
+                                "MONEY",
+                                "12"
+                            ],
+                            [
+                                "12",
+                                "Ontario Teachers'",
+                                "ORG",
+                                "tracks",
+                                "renewable energy assets",
+                                "GREEN_VARIABLE",
+                                "12"
+                            ],
+                            [
+                                "12",
+                                "NextEra Energy Partners",
+                                "ORG",
+                                "assocWith",
+                                "Ontario Teachers'",
+                                "ORG",
+                                "12"
+                            ],
+                            [
+                                "12",
+                                "NextEra Energy Partners",
+                                "ORG",
+                                "investorOrInvestee",
+                                "nearly $3.4 billion",
+                                "MONEY",
+                                "12"
+                            ],
+                            [
+                                "12",
+                                "NextEra Energy Partners",
+                                "ORG",
+                                "tracks",
+                                "renewable energy assets",
+                                "GREEN_VARIABLE",
+                                "12"
+                            ],
+                            [
+                                "12",
+                                "renewable energy assets",
+                                "GREEN_VARIABLE",
+                                "increase",
+                                "50%",
+                                "PERCENT",
+                                "12"
+                            ]
+                        ]
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 13,
+                        "text": "The transactions highlight the value of NextEra Energy Resources' best-in-class development platform and position us well to continue to capitalize on the robust renewables development environment that is driving the clean energy transformation reshaping our industry.",
+                        "ner_with_labels": {
+                            "NextEra Energy Resources'": "ORG",
+                            "renewables development environment": "GREEN_VARIABLE",
+                            "clean energy transformation": "GREEN_VARIABLE"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "The transactions",
+                                "transactions"
+                            ],
+                            [
+                                "the value",
+                                "value"
+                            ],
+                            [
+                                "class",
+                                "class"
+                            ],
+                            [
+                                "us",
+                                "us"
+                            ],
+                            [
+                                "the robust renewables development environment",
+                                "environment"
+                            ],
+                            [
+                                "that",
+                                "that"
+                            ],
+                            [
+                                "the clean energy transformation",
+                                "transformation"
+                            ],
+                            [
+                                "our industry",
+                                "industry"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "the robust renewables development environment",
+                                "renewables"
+                            ],
+                            [
+                                "the robust renewables development environment",
+                                "environment"
+                            ],
+                            [
+                                "the clean energy transformation",
+                                "energy transformation"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [
+                            [
+                                "renewables development environment",
+                                "environment"
+                            ],
+                            [
+                                "clean energy transformation",
+                                "energy transformation"
+                            ]
+                        ],
+                        "text_block_tense": [
+                            "future-0",
+                            "present-4",
+                            "past-1"
+                        ],
+                        "file_name": "ESG-today-59.docx",
+                        "textBlock_number": "ESG-today-59.docx_s13",
+                        "triples": []
+                    }
+                ]
+            }
+        ]
+    }
+}

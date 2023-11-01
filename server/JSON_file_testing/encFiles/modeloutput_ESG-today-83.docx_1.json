@@ -1,0 +1,1596 @@
+{
+    "ie2tkg.json": {
+        "meta_data": [
+            {
+                "source_doc_name": "ESG-today-316.docx",
+                "output_filename": "hd_doc2ie_output_2023-02-23_15-05-20_ESG-today-316-docx.json",
+                "processing_time": "2023-02-23_15-05-20",
+                "processing_software_version": "v8",
+                "num_sentences": 28,
+                "sent_simplify": false,
+                "co_ref": false
+            }
+        ],
+        "results": [
+            {
+                "sentences": [
+                    {
+                        "doc_id": 0,
+                        "sid": 0,
+                        "text": "Italian Industrial Giants ENI and Fincantieri to Cooperate on Sustainable Development.",
+                        "ner_with_labels": {
+                            "Italian": "NORP",
+                            "ENI": "ORG",
+                            "Fincantieri": "ORG"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "Italian Industrial Giants",
+                                "Giants"
+                            ],
+                            [
+                                "ENI",
+                                "ENI"
+                            ],
+                            [
+                                "Fincantieri",
+                                "Fincantieri"
+                            ],
+                            [
+                                "Sustainable Development",
+                                "Development"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "Italian Industrial Giants",
+                                "Italian"
+                            ],
+                            [
+                                "ENI",
+                                "ENI"
+                            ],
+                            [
+                                "Fincantieri",
+                                "Fincantieri"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [],
+                        "text_block_tense": [
+                            "future-0",
+                            "present-0",
+                            "past-0"
+                        ],
+                        "file_name": "ESG-today-83.docx",
+                        "textBlock_number": "ESG-today-83.docx_s0",
+                        "doc_meta_data": {
+                            "title": "Italian Industrial Giants ENI and Fincantieri to Cooperate on Sustainable Development.",
+                            "date": "June 4, 2020.",
+                            "publisher": "Mark Segal."
+                        },
+                        "pass_through": "YES",
+                        "triples": [
+                            [
+                                "0",
+                                "Fincantieri",
+                                "ORG",
+                                "assocWith",
+                                "ENI",
+                                "ORG",
+                                "0"
+                            ],
+                            [
+                                "0",
+                                "ENI",
+                                "ORG",
+                                "assocWith",
+                                "Fincantieri",
+                                "ORG",
+                                "0"
+                            ]
+                        ],
+                        "current_token_ner_obj": {
+                            "Italian": "NORP",
+                            "ENI": "ORG",
+                            "Fincantieri": "ORG",
+                            "Two": "CARDINAL",
+                            "energy": "GREEN_VARIABLE",
+                            "leader": "JOB_TITLE",
+                            "Eni": "ORG",
+                            "Fincatieri": "ORG",
+                            "decarbonisation": "GREEN_VARIABLE"
+                        }
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 1,
+                        "text": "Italian Industrial Giants ENI and Fincantieri to Cooperate on Sustainable Development. Two prominent Italian companies integrated energy leader Eni and shipbuilder Fincatieri announced the signing of a Memorandum of Understanding for the joint evaluation of opportunities for the development of innovative initiatives in the field of decarbonisation and circular economy.",
+                        "ner_with_labels": {
+                            "Two": "CARDINAL",
+                            "Italian": "NORP",
+                            "energy": "GREEN_VARIABLE",
+                            "leader": "JOB_TITLE",
+                            "Eni": "ORG",
+                            "Fincatieri": "ORG",
+                            "decarbonisation": "GREEN_VARIABLE"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "Two prominent Italian companies",
+                                "companies"
+                            ],
+                            [
+                                "energy leader Eni",
+                                "Eni"
+                            ],
+                            [
+                                "shipbuilder Fincatieri",
+                                "Fincatieri"
+                            ],
+                            [
+                                "the signing",
+                                "signing"
+                            ],
+                            [
+                                "a Memorandum",
+                                "Memorandum"
+                            ],
+                            [
+                                "Understanding",
+                                "Understanding"
+                            ],
+                            [
+                                "the joint evaluation",
+                                "evaluation"
+                            ],
+                            [
+                                "opportunities",
+                                "opportunities"
+                            ],
+                            [
+                                "the development",
+                                "development"
+                            ],
+                            [
+                                "innovative initiatives",
+                                "initiatives"
+                            ],
+                            [
+                                "the field",
+                                "field"
+                            ],
+                            [
+                                "decarbonisation",
+                                "decarbonisation"
+                            ],
+                            [
+                                "circular economy",
+                                "economy"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "Two prominent Italian companies",
+                                "Two"
+                            ],
+                            [
+                                "Two prominent Italian companies",
+                                "Italian"
+                            ],
+                            [
+                                "energy leader Eni",
+                                "energy"
+                            ],
+                            [
+                                "energy leader Eni",
+                                "leader"
+                            ],
+                            [
+                                "energy leader Eni",
+                                "Eni"
+                            ],
+                            [
+                                "shipbuilder Fincatieri",
+                                "Fincatieri"
+                            ],
+                            [
+                                "decarbonisation",
+                                "decarbonisation"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [
+                            [
+                                "decarbonisation",
+                                "decarbonisation"
+                            ]
+                        ],
+                        "text_block_tense": [
+                            "future-0",
+                            "present-0",
+                            "past-2"
+                        ],
+                        "file_name": "ESG-today-83.docx",
+                        "textBlock_number": "ESG-today-83.docx_s1",
+                        "triples": [
+                            [
+                                "1",
+                                "Eni",
+                                "ORG",
+                                "tracks",
+                                "energy",
+                                "GREEN_VARIABLE",
+                                "1"
+                            ],
+                            [
+                                "1",
+                                "Eni",
+                                "ORG",
+                                "assocWith",
+                                "Fincatieri",
+                                "ORG",
+                                "1"
+                            ],
+                            [
+                                "1",
+                                "Fincatieri",
+                                "ORG",
+                                "tracks",
+                                "energy",
+                                "GREEN_VARIABLE",
+                                "1"
+                            ],
+                            [
+                                "1",
+                                "Fincatieri",
+                                "ORG",
+                                "assocWith",
+                                "Eni",
+                                "ORG",
+                                "1"
+                            ]
+                        ],
+                        "current_token_ner_obj": {
+                            "Italian": "NORP",
+                            "ENI": "ORG",
+                            "Fincantieri": "ORG",
+                            "Two": "CARDINAL",
+                            "energy": "GREEN_VARIABLE",
+                            "leader": "JOB_TITLE",
+                            "Eni": "ORG",
+                            "Fincatieri": "ORG",
+                            "decarbonisation": "GREEN_VARIABLE",
+                            "two": "CARDINAL",
+                            "May 2017": "DATE",
+                            "energy projects": "GREEN_VARIABLE",
+                            "natural gas": "GREEN_VARIABLE"
+                        }
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 2,
+                        "text": "The MOU is an extension of an agreement signed by the two companies in May 2017 establishing a research and development partnership to carry out studies on energy projects related to natural gas.",
+                        "ner_with_labels": {
+                            "two": "CARDINAL",
+                            "May 2017": "DATE",
+                            "energy projects": "GREEN_VARIABLE",
+                            "natural gas": "GREEN_VARIABLE",
+                            "Test-company": "ORG",
+                            "Test-measure": "QUANTITY"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "The MOU",
+                                "MOU"
+                            ],
+                            [
+                                "an extension",
+                                "extension"
+                            ],
+                            [
+                                "an agreement",
+                                "agreement"
+                            ],
+                            [
+                                "the two companies",
+                                "companies"
+                            ],
+                            [
+                                "May",
+                                "May"
+                            ],
+                            [
+                                "a research and development partnership",
+                                "partnership"
+                            ],
+                            [
+                                "studies",
+                                "studies"
+                            ],
+                            [
+                                "energy projects",
+                                "projects"
+                            ],
+                            [
+                                "natural gas",
+                                "gas"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "the two companies",
+                                "two"
+                            ],
+                            [
+                                "May",
+                                "May 2017"
+                            ],
+                            [
+                                "energy projects",
+                                "energy projects"
+                            ],
+                            [
+                                "natural gas",
+                                "natural gas"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [
+                            [
+                                "energy projects",
+                                "energy projects"
+                            ],
+                            [
+                                "natural gas",
+                                "natural gas"
+                            ]
+                        ],
+                        "text_block_tense": [
+                            "future-0",
+                            "present-2",
+                            "past-2"
+                        ],
+                        "file_name": "ESG-today-83.docx",
+                        "textBlock_number": "ESG-today-83.docx_s2",
+                        "triples": [
+                            [
+                                "2",
+                                "natural gas",
+                                "GREEN_VARIABLE",
+                                "increase",
+                                "Test-measure",
+                                "QUANTITY",
+                                "2"
+                            ],
+                            [
+                                "2",
+                                "natural gas",
+                                "GREEN_VARIABLE",
+                                "tracks",
+                                "Test-company",
+                                "ORG",
+                                "2"
+                            ]
+                        ],
+                        "current_token_ner_obj": {
+                            "Two": "CARDINAL",
+                            "Italian": "NORP",
+                            "energy": "GREEN_VARIABLE",
+                            "leader": "JOB_TITLE",
+                            "Eni": "ORG",
+                            "Fincatieri": "ORG",
+                            "decarbonisation": "GREEN_VARIABLE",
+                            "two": "CARDINAL",
+                            "May 2017": "DATE",
+                            "energy projects": "GREEN_VARIABLE",
+                            "natural gas": "GREEN_VARIABLE",
+                            "the past three years": "DATE",
+                            "Fincantieri": "ORG",
+                            "Floating Gas": "GREEN_VARIABLE",
+                            "Methanol": "GREEN_VARIABLE",
+                            "Power Plant": "GREEN_VARIABLE"
+                        }
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 3,
+                        "text": "Over the past three years, Eni and Fincantieri have collaborated to the development of several concepts of floating offshore production platforms, with a modular and reversible approach, developed according to a Fincantieri patent, a Floating Gas to Methanol with Eni technology and a Floating Independent Power Plant FIPP.",
+                        "ner_with_labels": {
+                            "the past three years": "DATE",
+                            "Eni": "ORG",
+                            "Fincantieri": "ORG",
+                            "Floating Gas": "GREEN_VARIABLE",
+                            "Methanol": "GREEN_VARIABLE",
+                            "Power Plant": "GREEN_VARIABLE"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "the past three years",
+                                "years"
+                            ],
+                            [
+                                "Eni",
+                                "Eni"
+                            ],
+                            [
+                                "Fincantieri",
+                                "Fincantieri"
+                            ],
+                            [
+                                "the development",
+                                "development"
+                            ],
+                            [
+                                "several concepts",
+                                "concepts"
+                            ],
+                            [
+                                "floating offshore production platforms",
+                                "platforms"
+                            ],
+                            [
+                                "a modular and reversible approach",
+                                "approach"
+                            ],
+                            [
+                                "a Fincantieri patent",
+                                "patent"
+                            ],
+                            [
+                                "a Floating Gas",
+                                "Gas"
+                            ],
+                            [
+                                "Methanol",
+                                "Methanol"
+                            ],
+                            [
+                                "Eni technology",
+                                "technology"
+                            ],
+                            [
+                                "a Floating Independent Power Plant FIPP",
+                                "FIPP"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "the past three years",
+                                "the past three years"
+                            ],
+                            [
+                                "Eni",
+                                "Eni"
+                            ],
+                            [
+                                "Fincantieri",
+                                "Fincantieri"
+                            ],
+                            [
+                                "a Fincantieri patent",
+                                "Fincantieri"
+                            ],
+                            [
+                                "a Floating Gas",
+                                "Gas"
+                            ],
+                            [
+                                "Methanol",
+                                "Methanol"
+                            ],
+                            [
+                                "Eni technology",
+                                "Eni"
+                            ],
+                            [
+                                "a Floating Independent Power Plant FIPP",
+                                "Power Plant"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [
+                            [
+                                "Floating Gas",
+                                "Gas"
+                            ],
+                            [
+                                "Methanol",
+                                "Methanol"
+                            ]
+                        ],
+                        "text_block_tense": [
+                            "future-0",
+                            "present-3",
+                            "past-2"
+                        ],
+                        "file_name": "ESG-today-83.docx",
+                        "textBlock_number": "ESG-today-83.docx_s3",
+                        "triples": [
+                            [
+                                "3",
+                                "Fincantieri",
+                                "ORG",
+                                "tracks",
+                                "Floating Gas",
+                                "GREEN_VARIABLE",
+                                "3"
+                            ],
+                            [
+                                "3",
+                                "Fincantieri",
+                                "ORG",
+                                "assocWith",
+                                "Eni",
+                                "ORG",
+                                "3"
+                            ],
+                            [
+                                "3",
+                                "Floating Gas",
+                                "GREEN_VARIABLE",
+                                "gvRepDate",
+                                "the past three years",
+                                "DATE",
+                                "3"
+                            ],
+                            [
+                                "3",
+                                "Eni",
+                                "ORG",
+                                "tracks",
+                                "Floating Gas",
+                                "GREEN_VARIABLE",
+                                "3"
+                            ],
+                            [
+                                "3",
+                                "Eni",
+                                "ORG",
+                                "assocWith",
+                                "Fincantieri",
+                                "ORG",
+                                "3"
+                            ]
+                        ],
+                        "current_token_ner_obj": {
+                            "two": "CARDINAL",
+                            "May 2017": "DATE",
+                            "energy projects": "GREEN_VARIABLE",
+                            "natural gas": "GREEN_VARIABLE",
+                            "the past three years": "DATE",
+                            "Eni": "ORG",
+                            "Fincantieri": "ORG",
+                            "Floating Gas": "GREEN_VARIABLE",
+                            "Methanol": "GREEN_VARIABLE",
+                            "Power Plant": "GREEN_VARIABLE",
+                            "waste": "GREEN_VARIABLE",
+                            "energy": "GREEN_VARIABLE",
+                            "methanol": "GREEN_VARIABLE",
+                            "hydrogen": "GREEN_VARIABLE",
+                            "fuel cells": "GREEN_VARIABLE",
+                            "renewable": "GREEN_VARIABLE"
+                        }
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 4,
+                        "text": "The activities stemming from the extended agreement will focus mainly on waste to energy, production and transport of energy carriers as natural gas, methanol or hydrogen, fuel cells applications, the development and deployment of off-shore renewable technologies.",
+                        "ner_with_labels": {
+                            "waste": "GREEN_VARIABLE",
+                            "energy": "GREEN_VARIABLE",
+                            "natural gas": "GREEN_VARIABLE",
+                            "methanol": "GREEN_VARIABLE",
+                            "hydrogen": "GREEN_VARIABLE",
+                            "fuel cells": "GREEN_VARIABLE",
+                            "renewable": "GREEN_VARIABLE"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "The activities",
+                                "activities"
+                            ],
+                            [
+                                "the extended agreement",
+                                "agreement"
+                            ],
+                            [
+                                "waste",
+                                "waste"
+                            ],
+                            [
+                                "energy",
+                                "energy"
+                            ],
+                            [
+                                "production",
+                                "production"
+                            ],
+                            [
+                                "transport",
+                                "transport"
+                            ],
+                            [
+                                "energy carriers",
+                                "carriers"
+                            ],
+                            [
+                                "natural gas",
+                                "gas"
+                            ],
+                            [
+                                "methanol",
+                                "methanol"
+                            ],
+                            [
+                                "hydrogen",
+                                "hydrogen"
+                            ],
+                            [
+                                "fuel cells applications",
+                                "applications"
+                            ],
+                            [
+                                "the development",
+                                "development"
+                            ],
+                            [
+                                "deployment",
+                                "deployment"
+                            ],
+                            [
+                                "shore",
+                                "shore"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "waste",
+                                "waste"
+                            ],
+                            [
+                                "energy",
+                                "energy"
+                            ],
+                            [
+                                "energy carriers",
+                                "energy"
+                            ],
+                            [
+                                "natural gas",
+                                "natural gas"
+                            ],
+                            [
+                                "methanol",
+                                "methanol"
+                            ],
+                            [
+                                "hydrogen",
+                                "hydrogen"
+                            ],
+                            [
+                                "fuel cells applications",
+                                "fuel cells"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [
+                            [
+                                "waste",
+                                "waste"
+                            ],
+                            [
+                                "energy",
+                                "energy"
+                            ],
+                            [
+                                "natural gas",
+                                "natural gas"
+                            ],
+                            [
+                                "methanol",
+                                "methanol"
+                            ],
+                            [
+                                "hydrogen",
+                                "hydrogen"
+                            ]
+                        ],
+                        "text_block_tense": [
+                            "future-1",
+                            "present-2",
+                            "past-0"
+                        ],
+                        "file_name": "ESG-today-83.docx",
+                        "textBlock_number": "ESG-today-83.docx_s4",
+                        "triples": [],
+                        "current_token_ner_obj": {
+                            "the past three years": "DATE",
+                            "Eni": "ORG",
+                            "Fincantieri": "ORG",
+                            "Floating Gas": "GREEN_VARIABLE",
+                            "Methanol": "GREEN_VARIABLE",
+                            "Power Plant": "GREEN_VARIABLE",
+                            "waste": "GREEN_VARIABLE",
+                            "energy": "GREEN_VARIABLE",
+                            "natural gas": "GREEN_VARIABLE",
+                            "methanol": "GREEN_VARIABLE",
+                            "hydrogen": "GREEN_VARIABLE",
+                            "fuel cells": "GREEN_VARIABLE",
+                            "renewable": "GREEN_VARIABLE",
+                            "Claudio Descalzi": "PERSON",
+                            "CEO": "JOB_TITLE"
+                        }
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 5,
+                        "text": "Claudio Descalzi, CEO of Eni, stated: Thanks to the developed synergies, Fincantieri and Eni will concretely support the countrys sustainable development.",
+                        "ner_with_labels": {
+                            "Claudio Descalzi": "PERSON",
+                            "CEO": "JOB_TITLE",
+                            "Eni": "ORG",
+                            "Fincantieri": "ORG"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "Claudio Descalzi",
+                                "Descalzi"
+                            ],
+                            [
+                                "CEO",
+                                "CEO"
+                            ],
+                            [
+                                "Eni",
+                                "Eni"
+                            ],
+                            [
+                                "the developed synergies",
+                                "synergies"
+                            ],
+                            [
+                                "Fincantieri",
+                                "Fincantieri"
+                            ],
+                            [
+                                "Eni",
+                                "Eni"
+                            ],
+                            [
+                                "the countrys",
+                                "countrys"
+                            ],
+                            [
+                                "sustainable development",
+                                "development"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "Claudio Descalzi",
+                                "Claudio Descalzi"
+                            ],
+                            [
+                                "CEO",
+                                "CEO"
+                            ],
+                            [
+                                "Eni",
+                                "Eni"
+                            ],
+                            [
+                                "Fincantieri",
+                                "Fincantieri"
+                            ],
+                            [
+                                "Eni",
+                                "Eni"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [],
+                        "text_block_tense": [
+                            "future-1",
+                            "present-0",
+                            "past-1"
+                        ],
+                        "file_name": "ESG-today-83.docx",
+                        "textBlock_number": "ESG-today-83.docx_s5",
+                        "triples": [
+                            [
+                                "5",
+                                "Fincantieri",
+                                "ORG",
+                                "assocWith",
+                                "Eni",
+                                "ORG",
+                                "5"
+                            ],
+                            [
+                                "5",
+                                "Fincantieri",
+                                "ORG",
+                                "tracks",
+                                "waste",
+                                "GREEN_VARIABLE",
+                                "4"
+                            ],
+                            [
+                                "5",
+                                "Eni",
+                                "ORG",
+                                "assocWith",
+                                "Fincantieri",
+                                "ORG",
+                                "5"
+                            ],
+                            [
+                                "5",
+                                "Eni",
+                                "ORG",
+                                "tracks",
+                                "waste",
+                                "GREEN_VARIABLE",
+                                "4"
+                            ]
+                        ],
+                        "current_token_ner_obj": {
+                            "waste": "GREEN_VARIABLE",
+                            "energy": "GREEN_VARIABLE",
+                            "natural gas": "GREEN_VARIABLE",
+                            "methanol": "GREEN_VARIABLE",
+                            "hydrogen": "GREEN_VARIABLE",
+                            "fuel cells": "GREEN_VARIABLE",
+                            "renewable": "GREEN_VARIABLE",
+                            "Claudio Descalzi": "PERSON",
+                            "CEO": "JOB_TITLE",
+                            "Eni": "ORG",
+                            "Fincantieri": "ORG"
+                        }
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 6,
+                        "text": "This agreement perfectly fits into the long-term strategy we have designed.",
+                        "ner_with_labels": {},
+                        "noun_chunk_head_word": [
+                            [
+                                "This agreement",
+                                "agreement"
+                            ],
+                            [
+                                "the long-term strategy",
+                                "strategy"
+                            ],
+                            [
+                                "we",
+                                "we"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [],
+                        "gv_ner_noun_chunk_list": [],
+                        "text_block_tense": [
+                            "future-0",
+                            "present-2",
+                            "past-1"
+                        ],
+                        "file_name": "ESG-today-83.docx",
+                        "textBlock_number": "ESG-today-83.docx_s6",
+                        "triples": [],
+                        "current_token_ner_obj": {
+                            "Claudio Descalzi": "PERSON",
+                            "CEO": "JOB_TITLE",
+                            "Eni": "ORG",
+                            "Fincantieri": "ORG",
+                            "environmental": "GREEN_VARIABLE",
+                            "energy": "GREEN_VARIABLE",
+                            "carbon footprint": "GREEN_VARIABLE"
+                        }
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 7,
+                        "text": "To build the new Eni we have combined economic and environmental sustainability, we are working on a just transition by providing energy in a profitable way and, at the same time, obtaining an important reduction in the carbon footprint.",
+                        "ner_with_labels": {
+                            "Eni": "ORG",
+                            "environmental": "GREEN_VARIABLE",
+                            "energy": "GREEN_VARIABLE",
+                            "carbon footprint": "GREEN_VARIABLE"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "the new Eni",
+                                "Eni"
+                            ],
+                            [
+                                "we",
+                                "we"
+                            ],
+                            [
+                                "economic and environmental sustainability",
+                                "sustainability"
+                            ],
+                            [
+                                "we",
+                                "we"
+                            ],
+                            [
+                                "a just transition",
+                                "transition"
+                            ],
+                            [
+                                "energy",
+                                "energy"
+                            ],
+                            [
+                                "a profitable way",
+                                "way"
+                            ],
+                            [
+                                "the same time",
+                                "time"
+                            ],
+                            [
+                                "an important reduction",
+                                "reduction"
+                            ],
+                            [
+                                "the carbon footprint",
+                                "footprint"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "the new Eni",
+                                "Eni"
+                            ],
+                            [
+                                "economic and environmental sustainability",
+                                "environmental"
+                            ],
+                            [
+                                "energy",
+                                "energy"
+                            ],
+                            [
+                                "the carbon footprint",
+                                "carbon footprint"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [
+                            [
+                                "energy",
+                                "energy"
+                            ],
+                            [
+                                "carbon footprint",
+                                "carbon footprint"
+                            ]
+                        ],
+                        "text_block_tense": [
+                            "future-0",
+                            "present-5",
+                            "past-1"
+                        ],
+                        "file_name": "ESG-today-83.docx",
+                        "textBlock_number": "ESG-today-83.docx_s7",
+                        "triples": [
+                            [
+                                "7",
+                                "Eni",
+                                "ORG",
+                                "tracks",
+                                "environmental",
+                                "GREEN_VARIABLE",
+                                "7"
+                            ]
+                        ],
+                        "current_token_ner_obj": {
+                            "2025": "DATE",
+                            "2050": "DATE",
+                            "Eni": "ORG",
+                            "environmental": "GREEN_VARIABLE",
+                            "energy": "GREEN_VARIABLE",
+                            "carbon footprint": "GREEN_VARIABLE",
+                            "Natural gas": "GREEN_VARIABLE",
+                            "fossil energy": "GREEN_VARIABLE",
+                            "lowest carbon footprint": "GREEN_VARIABLE",
+                            "Enis": "ORG",
+                            "the coming years": "DATE",
+                            "60%": "PERCENT",
+                            "85%": "PERCENT"
+                        }
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 8,
+                        "text": "Natural gas, a fossil energy source with the lowest carbon footprint, will represent in Enis production mix an increasing component in the coming years: 60% in 2025, reaching 85% in 2050.",
+                        "ner_with_labels": {
+                            "2025": "DATE",
+                            "2050": "DATE",
+                            "Natural gas": "GREEN_VARIABLE",
+                            "fossil energy": "GREEN_VARIABLE",
+                            "lowest carbon footprint": "GREEN_VARIABLE",
+                            "Enis": "ORG",
+                            "the coming years": "DATE",
+                            "60%": "PERCENT",
+                            "85%": "PERCENT"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "Natural gas",
+                                "gas"
+                            ],
+                            [
+                                "a fossil energy source",
+                                "source"
+                            ],
+                            [
+                                "the lowest carbon footprint",
+                                "footprint"
+                            ],
+                            [
+                                "Enis production mix",
+                                "mix"
+                            ],
+                            [
+                                "an increasing component",
+                                "component"
+                            ],
+                            [
+                                "the coming years",
+                                "years"
+                            ],
+                            [
+                                "60%",
+                                "%"
+                            ],
+                            [
+                                "85%",
+                                "%"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "Natural gas",
+                                "Natural gas"
+                            ],
+                            [
+                                "a fossil energy source",
+                                "fossil energy"
+                            ],
+                            [
+                                "the lowest carbon footprint",
+                                "carbon footprint"
+                            ],
+                            [
+                                "Enis production mix",
+                                "Enis"
+                            ],
+                            [
+                                "the coming years",
+                                "the coming years"
+                            ],
+                            [
+                                "60%",
+                                "60%"
+                            ],
+                            [
+                                "85%",
+                                "85%"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [
+                            [
+                                "Natural gas",
+                                "Natural gas"
+                            ],
+                            [
+                                "lowest carbon footprint",
+                                "carbon footprint"
+                            ]
+                        ],
+                        "text_block_tense": [
+                            "future-1",
+                            "present-4",
+                            "past-1"
+                        ],
+                        "file_name": "ESG-today-83.docx",
+                        "textBlock_number": "ESG-today-83.docx_s8",
+                        "triples": [],
+                        "current_token_ner_obj": {
+                            "2025": "DATE",
+                            "2050": "DATE",
+                            "Eni": "ORG",
+                            "environmental": "GREEN_VARIABLE",
+                            "energy": "GREEN_VARIABLE",
+                            "carbon footprint": "GREEN_VARIABLE",
+                            "Natural gas": "GREEN_VARIABLE",
+                            "fossil energy": "GREEN_VARIABLE",
+                            "lowest carbon footprint": "GREEN_VARIABLE",
+                            "Enis": "ORG",
+                            "the coming years": "DATE",
+                            "60%": "PERCENT",
+                            "85%": "PERCENT",
+                            "Fincantieri": "ORG"
+                        }
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 9,
+                        "text": "In this process, Fincantieri represents a strategic partner with whom we continue to research and develop innovative technologies and systems.",
+                        "ner_with_labels": {
+                            "Fincantieri": "ORG"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "this process",
+                                "process"
+                            ],
+                            [
+                                "Fincantieri",
+                                "Fincantieri"
+                            ],
+                            [
+                                "a strategic partner",
+                                "partner"
+                            ],
+                            [
+                                "whom",
+                                "whom"
+                            ],
+                            [
+                                "we",
+                                "we"
+                            ],
+                            [
+                                "innovative technologies",
+                                "technologies"
+                            ],
+                            [
+                                "systems",
+                                "systems"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "Fincantieri",
+                                "Fincantieri"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [],
+                        "text_block_tense": [
+                            "future-0",
+                            "present-2",
+                            "past-0"
+                        ],
+                        "file_name": "ESG-today-83.docx",
+                        "textBlock_number": "ESG-today-83.docx_s9",
+                        "triples": [],
+                        "current_token_ner_obj": {
+                            "2025": "DATE",
+                            "2050": "DATE",
+                            "Natural gas": "GREEN_VARIABLE",
+                            "fossil energy": "GREEN_VARIABLE",
+                            "lowest carbon footprint": "GREEN_VARIABLE",
+                            "Enis": "ORG",
+                            "the coming years": "DATE",
+                            "60%": "PERCENT",
+                            "85%": "PERCENT",
+                            "Fincantieri": "ORG",
+                            "Giuseppe Bono": "PERSON",
+                            "CEO": "JOB_TITLE",
+                            "Italy": "GPE"
+                        }
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 10,
+                        "text": "Giuseppe Bono, CEO of Fincantieri, commented: We believe that the success of this partnership is very good news for Italy, especially given that the cooperation explores a key sector such as the one of sustainable development.",
+                        "ner_with_labels": {
+                            "Giuseppe Bono": "PERSON",
+                            "CEO": "JOB_TITLE",
+                            "Fincantieri": "ORG",
+                            "Italy": "GPE"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "Giuseppe Bono",
+                                "Bono"
+                            ],
+                            [
+                                "CEO",
+                                "CEO"
+                            ],
+                            [
+                                "Fincantieri",
+                                "Fincantieri"
+                            ],
+                            [
+                                "We",
+                                "We"
+                            ],
+                            [
+                                "the success",
+                                "success"
+                            ],
+                            [
+                                "this partnership",
+                                "partnership"
+                            ],
+                            [
+                                "very good news",
+                                "news"
+                            ],
+                            [
+                                "Italy",
+                                "Italy"
+                            ],
+                            [
+                                "the cooperation",
+                                "cooperation"
+                            ],
+                            [
+                                "a key sector",
+                                "sector"
+                            ],
+                            [
+                                "sustainable development",
+                                "development"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "Giuseppe Bono",
+                                "Giuseppe Bono"
+                            ],
+                            [
+                                "CEO",
+                                "CEO"
+                            ],
+                            [
+                                "Fincantieri",
+                                "Fincantieri"
+                            ],
+                            [
+                                "Italy",
+                                "Italy"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [],
+                        "text_block_tense": [
+                            "future-0",
+                            "present-3",
+                            "past-1"
+                        ],
+                        "file_name": "ESG-today-83.docx",
+                        "textBlock_number": "ESG-today-83.docx_s10",
+                        "triples": [
+                            [
+                                "10",
+                                "Fincantieri",
+                                "ORG",
+                                "locatedIn",
+                                "Italy",
+                                "GPE",
+                                "10"
+                            ]
+                        ],
+                        "current_token_ner_obj": {
+                            "Fincantieri": "ORG",
+                            "Giuseppe Bono": "PERSON",
+                            "CEO": "JOB_TITLE",
+                            "Italy": "GPE",
+                            "two": "CARDINAL"
+                        }
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 11,
+                        "text": "The ability of big two national industrial players to pool experiences, professional skills, and above all their visions for the future is a huge strategic achievement.",
+                        "ner_with_labels": {
+                            "two": "CARDINAL"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "The ability",
+                                "ability"
+                            ],
+                            [
+                                "big two national industrial players",
+                                "players"
+                            ],
+                            [
+                                "experiences",
+                                "experiences"
+                            ],
+                            [
+                                "professional skills",
+                                "skills"
+                            ],
+                            [
+                                "all",
+                                "all"
+                            ],
+                            [
+                                "their visions",
+                                "visions"
+                            ],
+                            [
+                                "the future",
+                                "future"
+                            ],
+                            [
+                                "a huge strategic achievement",
+                                "achievement"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "big two national industrial players",
+                                "two"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [],
+                        "text_block_tense": [
+                            "future-0",
+                            "present-1",
+                            "past-0"
+                        ],
+                        "file_name": "ESG-today-83.docx",
+                        "textBlock_number": "ESG-today-83.docx_s11",
+                        "triples": [],
+                        "current_token_ner_obj": {
+                            "Giuseppe Bono": "PERSON",
+                            "CEO": "JOB_TITLE",
+                            "Fincantieri": "ORG",
+                            "Italy": "GPE",
+                            "two": "CARDINAL",
+                            "Bono": "PERSON",
+                            "Eni": "ORG",
+                            "technological lead": "GREEN_VARIABLE"
+                        }
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 12,
+                        "text": "Bono concluded: I am very pleased because the research path we are charting with a group such as Eni has already led to the creation of several projects, consolidating the technological lead which allowed our companies to obtain important achievements worldwide.",
+                        "ner_with_labels": {
+                            "Bono": "PERSON",
+                            "Eni": "ORG",
+                            "technological lead": "GREEN_VARIABLE"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "Bono",
+                                "Bono"
+                            ],
+                            [
+                                "I",
+                                "I"
+                            ],
+                            [
+                                "the research path",
+                                "path"
+                            ],
+                            [
+                                "we",
+                                "we"
+                            ],
+                            [
+                                "a group",
+                                "group"
+                            ],
+                            [
+                                "Eni",
+                                "Eni"
+                            ],
+                            [
+                                "the creation",
+                                "creation"
+                            ],
+                            [
+                                "several projects",
+                                "projects"
+                            ],
+                            [
+                                "the technological lead",
+                                "lead"
+                            ],
+                            [
+                                "which",
+                                "which"
+                            ],
+                            [
+                                "our companies",
+                                "companies"
+                            ],
+                            [
+                                "important achievements",
+                                "achievements"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "Bono",
+                                "Bono"
+                            ],
+                            [
+                                "Eni",
+                                "Eni"
+                            ],
+                            [
+                                "the technological lead",
+                                "lead"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [
+                            [
+                                "technological lead",
+                                "lead"
+                            ]
+                        ],
+                        "text_block_tense": [
+                            "future-0",
+                            "present-6",
+                            "past-2"
+                        ],
+                        "file_name": "ESG-today-83.docx",
+                        "textBlock_number": "ESG-today-83.docx_s12",
+                        "triples": [
+                            [
+                                "12",
+                                "Eni",
+                                "ORG",
+                                "tracks",
+                                "technological lead",
+                                "GREEN_VARIABLE",
+                                "12"
+                            ]
+                        ],
+                        "current_token_ner_obj": {
+                            "two": "CARDINAL",
+                            "Bono": "PERSON",
+                            "Eni": "ORG",
+                            "technological lead": "GREEN_VARIABLE"
+                        }
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 13,
+                        "text": "Circular economy is becoming an increasingly central focus in sustainable investing, and emerging as an important ESG investment theme.",
+                        "ner_with_labels": {},
+                        "noun_chunk_head_word": [
+                            [
+                                "Circular economy",
+                                "economy"
+                            ],
+                            [
+                                "an increasingly central focus",
+                                "focus"
+                            ],
+                            [
+                                "sustainable investing",
+                                "investing"
+                            ],
+                            [
+                                "an important ESG investment theme",
+                                "theme"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [],
+                        "gv_ner_noun_chunk_list": [],
+                        "text_block_tense": [
+                            "future-0",
+                            "present-3",
+                            "past-0"
+                        ],
+                        "file_name": "ESG-today-83.docx",
+                        "textBlock_number": "ESG-today-83.docx_s13",
+                        "triples": [],
+                        "current_token_ner_obj": {
+                            "Bono": "PERSON",
+                            "Eni": "ORG",
+                            "technological lead": "GREEN_VARIABLE",
+                            "waste": "GREEN_VARIABLE",
+                            "resources": "GREEN_VARIABLE"
+                        }
+                    },
+                    {
+                        "doc_id": 0,
+                        "sid": 14,
+                        "text": "The practice involves refocusing the entire industrial process from product design through production, distribution, usage and disposal on eliminating waste through the continual use and re-use of resources.",
+                        "ner_with_labels": {
+                            "waste": "GREEN_VARIABLE",
+                            "resources": "GREEN_VARIABLE"
+                        },
+                        "noun_chunk_head_word": [
+                            [
+                                "The practice",
+                                "practice"
+                            ],
+                            [
+                                "the entire industrial process",
+                                "process"
+                            ],
+                            [
+                                "product design",
+                                "design"
+                            ],
+                            [
+                                "production",
+                                "production"
+                            ],
+                            [
+                                "distribution",
+                                "distribution"
+                            ],
+                            [
+                                "usage",
+                                "usage"
+                            ],
+                            [
+                                "disposal",
+                                "disposal"
+                            ],
+                            [
+                                "waste",
+                                "waste"
+                            ],
+                            [
+                                "the continual use",
+                                "use"
+                            ],
+                            [
+                                "re",
+                                "re"
+                            ],
+                            [
+                                "-",
+                                "-"
+                            ],
+                            [
+                                "use",
+                                "use"
+                            ],
+                            [
+                                "resources",
+                                "resources"
+                            ]
+                        ],
+                        "ner_in_nounchunk": [
+                            [
+                                "waste",
+                                "waste"
+                            ],
+                            [
+                                "resources",
+                                "resources"
+                            ]
+                        ],
+                        "gv_ner_noun_chunk_list": [
+                            [
+                                "waste",
+                                "waste"
+                            ],
+                            [
+                                "resources",
+                                "resources"
+                            ]
+                        ],
+                        "text_block_tense": [
+                            "future-0",
+                            "present-3",
+                            "past-0"
+                        ],
+                        "file_name": "ESG-today-83.docx",
+                        "textBlock_number": "ESG-today-83.docx_s14",
+                        "triples": [],
+                        "current_token_ner_obj": {
+                            "waste": "GREEN_VARIABLE",
+                            "resources": "GREEN_VARIABLE",
+                            "Eni": "ORG",
+                            "Decarbonization": "GREEN_VARIABLE",
+                            "Renewable": "GREEN_VARIABLE"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
