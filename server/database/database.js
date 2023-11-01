@@ -10,4 +10,5 @@ const connectDB=async()=>{
     }
 }
 export const dbname=conn;
+
 export default connectDB

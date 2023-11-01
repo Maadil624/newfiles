@@ -1,15 +1,13 @@
-import express from 'express'
-import userController from '../controller/userController.js'
-import { allNotifications, allUsers, createNotification, deleteNotifications, loginController, status, verifyUser } from '../controller/loginController.js'
+import express from 'express';
 import multer from 'multer';
-import { fileUpload, filefetch, deleteuser, deletedata, deletefile, updatefiledata, userrequest, adminrequest, admindelreq } from '../controller/FileUploadController.js'
-import GuserController from '../controller/GuserController.js'
+import GuserController from '../controller/GuserController.js';
 import passport from 'passport';
-import { data } from '../views/graphImp.js'
 import { authurl, callbackurl, linkedinrresponce, lnklogout } from '../controller/LinkdenController.js';
+import { allNotifications, allUsers, createNotification, deleteNotifications, loginController, verifyUser } from '../controller/loginController.js';
+import userController from '../controller/userController.js';
+import { admindelreq, adminrequest, deletedata, deletefile, deleteuser, fileUpload, filefetch, updatefiledata, userrequest } from '../controller/FileUploadController.js';
 // initilize express with pre defined method router for routing
 const route = express.Router()
-// console.log(data.renderer.run())
 // File Upload Routes
 var storage = multer.diskStorage({
   destination: function (req, file, cb) {
@@ -70,6 +68,9 @@ route.post('/getdeletedata', deletedata)
 route.delete('/deletefileuser/:id', deleteuser)
 route.delete('/deletefile/:id', deletefile)
 route.put('/updatefiledata/:id', updatefiledata)
+
+
+// Notifications routes
 // ALL Notification handling Routes
 route.get('/allNotifications', allNotifications)
 route.post('/createnotification', createNotification)
@@ -77,8 +78,12 @@ route.delete('/deletenotification/:id', deleteNotifications)
 
 // user Routes
 route.post('/register', userController)
-route.post('/login', status, loginController)
-route.route('/allusers').get(verifyUser, allUsers)
+// <<<<<<< alluptfiles
+// route.post('/login', loginController)
+// =======
+// route.post('/login', status, loginController)
+// >>>>>>> newbranch
+// route.route('/allusers').get(verifyUser, allUsers)
 route.route('/usersrequest').post(userrequest)
 
 // Social Media Login Routes
@@ -106,8 +111,14 @@ route.get('/facebook/callback', passport.authenticate('facebook',
 
 
 route.get('/', function (req, res) {
+// <<<<<<< alluptfiles
+//   res.render('index.ejs', {
+//     user: req.user
+//   }); // load the index.ejs file
+// =======
   res.render('index.ejs', { data });
   // load the index.ejs file
+// >>>>>>> newbranch
 });
 // linkdden routes
 // List of scopes separated by spaces

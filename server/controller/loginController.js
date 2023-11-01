@@ -1,7 +1,7 @@
 import userModels from "../models/userModels.js"
 import jwt from "jsonwebtoken"
 import bcrypt from "bcrypt"
-import usersNotifications from "../models/userNotifications.js"
+import usersNotifications from "../models/usersNotifications.js"
 
 export const loginController = async (req, res) => {
     try {
